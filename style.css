@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.topStripe {
+  height: 50px;
+  background-color: #808080;
+}
+.stripeContainer {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+.menu {
+  display: flex;
+}
+.menuList {
+  list-style-type: none;
+  margin-left: 15px;
+}
+.menuLink {
+  text-decoration: none;
+  color: black;
+}
+.slider {
+  width: 1200px;
+  height: 400px;
+  background-image: url("img/slider.jpg");
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  position: relative;
+}
+.itemBlock {
+  height: 850px;
+  text-align: center;
+  background: linear-gradient(90deg, #5b5b5b 0%, #bcbcbc 49.75%, #515151 100%);
+}
+.fon {
+  background-image: url("img/fon2.jpg");
+  background-repeat: no-repeat;
+}
+.itemLine {
+  display: flex;
+  justify-content: space-evenly;
+}
+.itemLine2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.item {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+}
+.itemTextBig {
+  margin-top: 20px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+.itemPic {
+  width: 200px;
+  height: 200px;
+  background-image: url("img/tetsItemPic.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.dizaynBlock {
+  height: 500px;
+  background-color: lightgrey;
+  text-align: center;
+}
+.h3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+.opisanieDiz {
+  display: flex;
+  justify-content: space-between;
+}
+.dizPic {
+  width: 400px;
+  height: 300px;
+  background-image: url("img/dizPic.jpg");
+  border-radius: 10px;
+  margin-left: 75px;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+}
+.dizText {
+  width: 600px;
+  margin-right: 75px;
+  margin-top: 30px;
+}
+.otzivyContainer {
+  text-align: center;
+  height: 500px;
+  background-color: whitesmoke;
+}
+.otzivy {
+  display: flex;
+  justify-content: space-evenly;
+}
+.otziv {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+}
+.otzivText {
+  padding: 10px;
+}
+.otzivPic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url("img/otziv.jpg");
+  overflow: hidden;
+}
+.footerContainer {
+  height: 50px;
+  background-color: gray;
+}
