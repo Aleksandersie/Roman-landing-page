@@ -6,21 +6,25 @@ body {
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 .topStripe {
-  height: 50px;
-  background-color: #808080;
+  height: 70px;
+  background-color: #fbff00;
 }
 .stripeContainer {
-  height: 50px;
+  height: 70px;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 .logo {
   text-decoration: none;
@@ -35,24 +39,47 @@ body {
   list-style-type: none;
   margin-left: 15px;
 }
+.menuListLast {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 7px;
+}
 .menuLink {
   text-decoration: none;
   color: black;
 }
+.redButton {
+  background-color: red;
+  padding: 11px;
+  border-radius: 23px;
+  top: 8px;
+  color: white;
+  left: 39px;
+  font-weight: 600;
+}
 .slider {
   width: 1200px;
   height: 400px;
-  background-image: url("img/slider.jpg");
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   position: relative;
+}
+.slider1text {
+  border-left: 7px solid red;
+  font-size: 40px;
+  text-align: left;
+  padding: 12px;
+  font-weight: 400;
+  width: 565px;
+  height: 101px;
+  background-color: white;
+  position: relative;
+  top: -166px;
+  left: 575px;
 }
 .itemBlock {
   height: 850px;
   text-align: center;
-  background: linear-gradient(90deg, #5b5b5b 0%, #bcbcbc 49.75%, #515151 100%);
+  background: linear-gradient(90deg, #fbff00 0%, #ffffff 49.75%, #fbff00 100%);
 }
 .fon {
   background-image: url("img/fon2.jpg");
@@ -68,6 +95,8 @@ body {
   margin-top: 50px;
 }
 .item {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 300px;
   height: 300px;
@@ -86,11 +115,12 @@ body {
   background-image: url("img/tetsItemPic.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
-  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 11px 2px rgba(34, 60, 80, 0.95) inset;
 }
 .dizaynBlock {
   height: 500px;
-  background-color: lightgrey;
+  background-color: whitesmoke;
   text-align: center;
 }
 .h3 {
@@ -118,7 +148,7 @@ body {
 .otzivyContainer {
   text-align: center;
   height: 500px;
-  background-color: whitesmoke;
+  background: linear-gradient(90deg, #fbff00 0%, #ffffff 49.75%, #fbff00 100%);
 }
 .otzivy {
   display: flex;
@@ -144,6 +174,22 @@ body {
   overflow: hidden;
 }
 .footerContainer {
-  height: 50px;
+  height: 100px;
   background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.icon {
+  font-size: 40px;
+  padding: 5px;
+  color: white;
+}
+.logoFooter {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
 }

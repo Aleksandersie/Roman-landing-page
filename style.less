@@ -1,6 +1,6 @@
 @mainWidth: 1200px;
-@mainGray: gray;
-
+//@mainGray: #d9d9d9;
+@mainColor:#fbff00;
 
 
 *{
@@ -11,22 +11,26 @@ body{
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 .container{
   width: @mainWidth;
   margin: 0 auto;
 }
 .topStripe{
 
-  height: 50px;
-  background-color: @mainGray;
+  height: 70px;
+  background-color: @mainColor;
 }
 .stripeContainer{
-  height: 50px;
+  height: 70px;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 .logo{
   text-decoration: none;
@@ -36,32 +40,60 @@ body{
 }
 .menu{
   display: flex;
-
 }
 .menuList{
   list-style-type: none;
   margin-left: 15px;
 }
+.menuListLast{
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 7px;
+
+}
 .menuLink{
   text-decoration: none;
   color: black;
 }
+.redButton{
+ // line-height: 70px;
+  background-color: red;
+  padding: 11px;
+  border-radius: 23px;
+  //position: relative;
+  top: 8px;
+  color: white;
+  left: 39px;
+  font-weight: 600;
+}
 .slider{
   width: 1200px;
   height: 400px;
-  background-image: url("img/slider.jpg");
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   position: relative;
+}
+.sliderLine{
+
+}
+.slider1text{
+  border-left: 7px solid red;
+  font-size: 40px;
+  text-align: left;
+  padding: 12px;
+  font-weight: 400;
+  width: 565px;
+  height: 101px;
+  background-color: white;
+  position: relative;
+  top: -166px;
+  left: 575px;
 }
 .itemBlock{
   height: 850px;
   //background-color: @mainGray;
   text-align: center;
   //background: linear-gradient(90deg,rgba(91, 91, 91, 0.84) 0%,rgba(188, 188, 188, 0.84) 46%,rgba(81, 81, 81, 0.84) 100%);
-  background: linear-gradient(90deg,rgba(91, 91, 91, 1) 0%,rgba(188, 188, 188, 1) 49.75%,rgba(81, 81, 81, 1) 100%);
+  background: linear-gradient(90deg,@mainColor 0%,white 49.75%,@mainColor 100%);
 }
 .fon{
   background-image: url("img/fon2.jpg");
@@ -78,6 +110,8 @@ body{
 }
 
 .item{
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 300px;
   height: 300px;
@@ -97,11 +131,12 @@ body{
   background-image: url("img/tetsItemPic.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
-  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 11px 2px rgba(34, 60, 80, 0.95) inset;
 }
 .dizaynBlock {
   height: 500px;
-  background-color: lightgrey;
+  background-color: whitesmoke;
   text-align: center;
 }
 .h3{
@@ -130,7 +165,7 @@ body{
 .otzivyContainer{
   text-align: center;
   height: 500px;
-  background-color: whitesmoke;
+  background: linear-gradient(90deg,@mainColor 0%,white 49.75%,@mainColor 100%);
   //padding-top: 50px;
   //padding-bottom: 50px;
 }
@@ -159,8 +194,24 @@ body{
   overflow: hidden;
 }
 .footerContainer{
-  height: 50px;
+  height: 100px;
   background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+.icon{
+  font-size: 40px;
+  padding: 5px;
+  color: white;
+}
+.logoFooter{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
 }
 
 
