@@ -16,7 +16,7 @@ a {
 }
 .topStripe {
   height: 70px;
-  background-color: #fbff00;
+  background-color: #ffd900;
 }
 .stripeContainer {
   height: 70px;
@@ -85,7 +85,7 @@ a {
 .itemBlock {
   height: 850px;
   text-align: center;
-  background: linear-gradient(90deg, #fbff00 0%, #ffffff 49.75%, #fbff00 100%);
+  background: linear-gradient(90deg, #ffd900 0%, #ffffff 49.75%, #ffd900 100%);
 }
 .fon {
   background-image: url("img/fon2.jpg");
@@ -154,7 +154,7 @@ a {
 .otzivyContainer {
   text-align: center;
   height: 500px;
-  background: linear-gradient(90deg, #fbff00 0%, #ffffff 49.75%, #fbff00 100%);
+  background: linear-gradient(90deg, #ffd900 0%, #ffffff 49.75%, #ffd900 100%);
 }
 .otzivy {
   display: flex;
