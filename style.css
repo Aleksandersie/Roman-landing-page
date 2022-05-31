@@ -63,6 +63,11 @@ a {
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   position: relative;
 }
+.sliderImg {
+  width: 1200px;
+  height: 400px;
+  background-color: grey;
+}
 .slider1text {
   border-left: 7px solid red;
   font-size: 40px;
