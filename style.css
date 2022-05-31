@@ -67,6 +67,7 @@ a {
   width: 1200px;
   height: 400px;
   background-color: grey;
+  background-image: url("img/Slider1.jpg");
 }
 .slider1text {
   border-left: 7px solid red;
