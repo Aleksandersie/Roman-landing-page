@@ -37,7 +37,10 @@
     </div>
     <section class="sliderSection">
     <div class="slider container">
-        <div class="sliderLine"><div class="sliderImg"><img src="img/Slider1.jpg" alt=""></div><div class="slider1text">
+        <div class="sliderLine" id="sliderLine">
+            <img src="img/Slider.jpg" alt="">
+            <img src="img/Slider2.jpg" alt="">
+            <div class="sliderImg"><img src="img/Slider1.jpg" alt=""></div><div class="slider1text">
             Индивидуальный подход к <br> каждому клиенту
         </div></div>
     </div>
@@ -151,6 +154,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        'use strict'
+        let offset = 0;
+        let sliderLine = document.getElementById('sliderLine');
+        setInterval(topSlider, 3000);
+        function topSlider (){
+            offset -= 1200;
+            if( offset < -2400){
+                offset = 0;
+            }
+            sliderLine.style.left = offset + 'px';
+        };
+    </script>
 
 </div>
 <script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>
