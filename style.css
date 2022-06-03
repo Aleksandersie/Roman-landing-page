@@ -308,7 +308,7 @@ a {
 }
 .dostavkaCard {
   width: 700px;
-  height: 150px;
+  height: 160px;
   background-color: #dbc2a4;
   border-radius: 10px;
   padding-top: 40px;
@@ -316,4 +316,6 @@ a {
   font-weight: 500;
   line-height: 30px;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  padding-left: 20px;
+  padding-right: 20px;
 }
