@@ -61,6 +61,9 @@ a{
   font-weight: 600;
   text-decoration: none;
   color: @itemCardColor;
+  &:hover{
+    color:#782221;
+  }
 }
 .redButton{
  // line-height: 70px;
@@ -74,8 +77,9 @@ a{
   font-weight: 600;
 }
 .headerStripe {
-  height: 20px;
+  height: 26px;
   background-color: #782221;
+  line-height: 26px;
 }
 .slider{
   width: 1200px;
@@ -489,4 +493,7 @@ a{
 }
 .menuLinkMini{
   color: @itemCardColor;
+  &:hover{
+    border-bottom: 2px solid @itemCardColor;
+  }
 }

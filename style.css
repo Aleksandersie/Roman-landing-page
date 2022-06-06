@@ -50,6 +50,9 @@ a {
   text-decoration: none;
   color: #ebd8c9;
 }
+.menuLink:hover {
+  color: #782221;
+}
 .redButton {
   background-color: #cb132d;
   padding: 11px;
@@ -60,8 +63,9 @@ a {
   font-weight: 600;
 }
 .headerStripe {
-  height: 20px;
+  height: 26px;
   background-color: #782221;
+  line-height: 26px;
 }
 .slider {
   width: 1200px;
@@ -440,4 +444,7 @@ a {
 }
 .menuLinkMini {
   color: #ebd8c9;
+}
+.menuLinkMini:hover {
+  border-bottom: 2px solid #ebd8c9;
 }
