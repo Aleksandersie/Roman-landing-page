@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Визитки</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;300;400;500;600&display=swap"
+          rel="stylesheet">
+
+
+</head>
+<body>
+<selection class="top">
+<div class="topStripe container">
+    <div class="container">
+        <section class="top">
+            <div class="stripeContainer">
+                <a href="index.html" class="logo">LOGO</a>
+                <nav>
+                    <div class="navBlock">
+                        <nav>
+                            <ul class="menu">
+                                <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+
+                                <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                                <li class="menuList"><a href="#" class="menuLink">О нас</a></li>
+                                <li class="menuList"><a href="#" class="menuLink">Контакты</a></li>
+                                <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                                <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+
+                            </ul>
+
+                        </nav>
+
+
+                    </div>
+                </nav>
+
+            </div>
+            <div class="headerStripe container">
+                <ul class="menuMini">
+                    <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
+                    <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
+                    <li class="menuListMini"><a href="" class="menuLinkMini">Наклейки</a></li>
+                    <li class="menuListMini"><a href="" class="menuLinkMini">Листовки</a></li>
+                    <li class="menuListMini"><a href="" class="menuLinkMini">Холсты</a></li>
+                    <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
+                    <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</selection>
+    <selection class="vizitki">
+        <div class="vizitkiFon container">
+            <h3 class="h3shadow">Визитки</h3>
+            <div class="vizitkiBlock container">
+                <div class="vizitkiSlider">
+                    <div class="gallerySlider">
+                        <div class="gallerySliderTop">
+                            <div class="sliderTopLine" id="sliderTopLine">
+                                <img src="img/vizitkiSlider/Slide1.jpg" alt="1">
+                                <img src="img/vizitkiSlider/Slide2.jpg" alt="1">
+                                <img src="img/vizitkiSlider/Slide3.jpg" alt="1">
+                                <img src="img/vizitkiSlider/Slide4.jpg" alt="1">
+                            </div>
+                        </div>
+                        <div class="gallerySliderBottom">
+                            <div class="vizPicMiniOne" id="vizPicMiniOne"></div>
+                            <div class="vizPicMiniTwo" id="vizPicMiniTwo"></div>
+                            <div class="vizPicMiniThree" id="vizPicMiniThree"></div>
+                            <div class="vizPicMiniFour" id="vizPicMiniFour"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vizitkiText">
+                    <p>Мы печатаем визитки высокого качества, повышающих узнаваемость вашего
+                        бренда в Краснодаре и за его пределами.
+                        Также можем подготовить уникальный дизайн визитки.
+                        Печать партии от 50 штук.
+                        Возможна срочная печать в день обращения.
+                        Визитки многие года являются незаменимым и важным атрибутом большого
+                        и малого бизнеса. При помощи такого небольшого бизнес-аксессуара можно
+                        в короткие сроки рассказать или напомнить о себе потенциальным клиентам
+                        и партнерам. Наличие визитки – это признак того, что Вы серьезный человек
+                        или представитель уважающей себя компании.
+                        Заказать визитки в типографии стоит не только для того, чтобы всегда иметь
+                        при себе сжатую информацию, но и для поддержания статуса и престижа.</p>
+
+                    <div class="redButtonViz">Оформить заказ</div>
+
+
+            </div>
+
+        </div>
+    </selection>
+
+
+    <footer>
+        <div class="footer container">
+            <div class="footerContainer">
+                <div class="logoFooter">LOGO</div>
+                <div class="socialIconBox">
+                    <i class="fa-brands fa-instagram icon"></i>
+                    <i class="fa-brands fa-vk icon"></i>
+                    <i class="fa-brands fa-whatsapp icon"></i>
+                    <i class="fa-brands fa-telegram icon"></i>
+                    <i class="fa-solid fa-envelope icon"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        'use strict'
+        let offset = 0;
+
+        let sliderLine = document.getElementById('sliderTopLine');
+
+        document.getElementById('vizPicMiniOne').addEventListener('click',function () {
+            offset = 0;
+            sliderLine.style.left = offset + 'px';
+        });
+        document.getElementById('vizPicMiniTwo').addEventListener('click',function () {
+            offset = -400;
+            sliderLine.style.left = offset + 'px';
+        });
+        document.getElementById('vizPicMiniThree').addEventListener('click',function () {
+            offset = -800;
+            sliderLine.style.left = offset + 'px';
+        });
+        document.getElementById('vizPicMiniFour').addEventListener('click',function () {
+            offset = -1200;
+            sliderLine.style.left = offset + 'px';
+        });
+    </script>
+
+</div>
+<script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

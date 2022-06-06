@@ -30,7 +30,7 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-size: 32px;
-  color: #241b1c;
+  color: #ebd8c9;
 }
 .menu {
   display: flex;
@@ -46,8 +46,9 @@ a {
 }
 .menuLink {
   font-size: 17px;
+  font-weight: 600;
   text-decoration: none;
-  color: #241b1c;
+  color: #ebd8c9;
 }
 .redButton {
   background-color: #cb132d;
@@ -57,6 +58,10 @@ a {
   color: white;
   left: 39px;
   font-weight: 600;
+}
+.headerStripe {
+  height: 20px;
+  background-color: #782221;
 }
 .slider {
   width: 1200px;
@@ -318,4 +323,121 @@ a {
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   padding-left: 20px;
   padding-right: 20px;
+}
+.vizitkiFon {
+  height: 1000px;
+  text-align: center;
+  background: linear-gradient(90deg, #b7582a 0%, #da8a46 49.75%, #b7582a 100%);
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+}
+.vizitkiBlock {
+  width: 1100px;
+  height: 450px;
+  padding-top: 50px;
+  margin-top: ;
+  background-color: #ebd8c9;
+  border-radius: 10px;
+  display: flex;
+}
+.vizitkiSlider {
+  width: 50%;
+}
+.vizitkiText {
+  width: 50%;
+  padding: 10px 50px 50px 50px;
+  color: #241b1c;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.gallerySlider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallerySliderTop {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+}
+.sliderTopLine {
+  width: 1600px;
+  display: flex;
+  left: 0px;
+  position: relative;
+}
+.gallerySliderBottom {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  margin-top: 5px;
+}
+.vizPicMiniOne {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/vizitkiSlider/Slide1mini.jpg");
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.vizPicMiniOne:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.vizPicMiniTwo {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/vizitkiSlider/Slide2mini.jpg");
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.vizPicMiniTwo:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.vizPicMiniThree {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/vizitkiSlider/Slide3mini.jpg");
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.vizPicMiniThree:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.vizPicMiniFour {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/vizitkiSlider/Slide4mini.jpg");
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+}
+.vizPicMiniFour:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.redButtonViz {
+  background-color: #cb132d;
+  padding: 11px;
+  border-radius: 23px;
+  top: 8px;
+  color: white;
+  left: 39px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.menuMini {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menuListMini {
+  list-style-type: none;
+}
+.menuLinkMini {
+  color: #ebd8c9;
 }

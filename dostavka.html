@@ -6,47 +6,62 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;300;400;500;600&display=swap"
+          rel="stylesheet">
 
 
 </head>
 <body>
-<div class="topStripe container">
-    <div class="container">
-        <section class="top">
-            <div class="stripeContainer">
-                <a href="index.html" class="logo">LOGO</a>
-                <nav>
-                    <div class="navBlock">
-                        <nav>
-                            <ul class="menu">
-                                <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+<selection class="top">
+    <div class="topStripe container">
+        <div class="container">
+            <section class="top">
+                <div class="stripeContainer">
+                    <a href="index.html" class="logo">LOGO</a>
+                    <nav>
+                        <div class="navBlock">
+                            <nav>
+                                <ul class="menu">
+                                    <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
 
-                                <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
-                                <li class="menuList"><a href="#" class="menuLink">О нас</a></li>
-                                <li class="menuList"><a href="#" class="menuLink">Контакты</a></li>
-                                <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
-                                <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+                                    <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">О нас</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">Контакты</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                                    <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
 
-                            </ul>
+                                </ul>
 
-                        </nav>
+                            </nav>
 
 
-                    </div>
-                </nav>
+                        </div>
+                    </nav>
 
-            </div>
-        </section>
-    </div>
+                </div>
+                <div class="headerStripe container">
+                    <ul class="menuMini">
+                        <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
+                        <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Наклейки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Листовки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Холсты</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+</selection>
+
 
     <section class="dostavka">
         <div class="dostavkaBlock container">
             <h3 class="h3shadow">Доставка</h3>
             <div class="dostavkaCard container">
                 <p>
-                    Доставка в пределах Краснодара осуществляется сторонними курьерами,  по
-                    тарифам установленными  компаниями агрегаторами.
+                    Доставка в пределах Краснодара осуществляется сторонними курьерами, по
+                    тарифам установленными компаниями агрегаторами.
 
                     Доставка по Краснодарскому краю возможна рейсовыми автобусами.
                     Отправки по России только через СДЭК.
@@ -55,11 +70,8 @@
             </div>
 
 
-
         </div>
     </section>
-
-
 
 
     <footer>
@@ -82,9 +94,10 @@
         let offset = 0;
         let sliderLine = document.getElementById('sliderLine');
         setInterval(topSlider, 3000);
-        function topSlider (){
+
+        function topSlider() {
             offset -= 1200;
-            if( offset < -2400){
+            if (offset < -2400) {
                 offset = 0;
             }
             sliderLine.style.left = offset + 'px';
