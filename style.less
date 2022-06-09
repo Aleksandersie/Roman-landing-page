@@ -1,10 +1,11 @@
 @mainWidth: 1200px;
 
-@mainColorHeader: #B7582A; // red #CF3E29;
+@mainColorHeader:#006955;  //темно бежевый #B7582A; // red #CF3E29;
 @mainColorLight: #DA8A46;
+@mainGray:#696752;
 @textColor:#241B1C;
 @bigButton: #cb132d;
-@itemCardColor:#EBD8C9; //#DBC2A4;
+@itemCardColor:#E7EEE7; //#DBC2A4;
 @dizBlockColor:#DBC2A4;
 
 @shadowOne: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
@@ -27,7 +28,7 @@ a{
 .topStripe{
 
   height: 70px;
-  background-color: @mainColorLight;
+  background-color: @mainColorHeader;
 }
 .stripeContainer{
   height: 70px;
@@ -62,7 +63,7 @@ a{
   text-decoration: none;
   color: @itemCardColor;
   &:hover{
-    color:#782221;
+    color:#D64E52;
   }
 }
 .redButton{
@@ -78,7 +79,7 @@ a{
 }
 .headerStripe {
   height: 26px;
-  background-color: #782221;
+  background-color: @mainColorHeader;
   line-height: 26px;
 }
 .slider{
@@ -87,6 +88,15 @@ a{
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   position: relative;
   overflow: hidden;
+}
+.testBox{
+
+  filter: opacity(0.9);
+}
+.testImg{
+  background-image: url("img/Slider1.jpg");
+  width: 1200px;
+  height: 400px;
 }
 .sliderLine{
  width: @mainWidth*3;
@@ -121,8 +131,8 @@ a{
   height: 850px;
   text-align: center;
   //background: linear-gradient(90deg,rgba(91, 91, 91, 0.84) 0%,rgba(188, 188, 188, 0.84) 46%,rgba(81, 81, 81, 0.84) 100%);
-  background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
-  //background-color: @mainColorHeader;
+ // background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
+  background-color: @mainGray;
 }
 .fon{
   background-image: url("img/fon2.jpg");
@@ -165,7 +175,7 @@ a{
   background-repeat: no-repeat;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 1px 0px 11px 2px rgba(34, 60, 80, 0.95) inset;
+  box-shadow: 1px 0px 11px 2px rgba(0, 0, 0, 0.95) inset;
 }
 .itemHolst{
   width: 200px;
@@ -174,11 +184,11 @@ a{
   background-repeat: no-repeat;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 1px 0px 11px 2px rgba(34, 60, 80, 0.95) inset;
+  box-shadow: 1px 0px 11px 2px rgba(0, 0, 0, 0.95) inset;
 }
 .dizaynBlock {
   height: 500px;
-  background-color: @mainColorLight;
+  background-color: @mainGray*1.8;
   text-align: center;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
@@ -215,7 +225,8 @@ a{
 .priemContainer{
   text-align: center;
  // height: 500px;
-  background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
+  //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
+  background-color: @mainGray;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   //padding-top: 50px;
   //padding-bottom: 50px;
@@ -229,7 +240,7 @@ a{
   height: 150px;
   border-radius: 10px;
   margin-bottom: 55px;
-  background-color: @textColor;
+  background-color: @mainColorHeader;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .h3Priem{
@@ -276,7 +287,8 @@ a{
 .oNasContainer{
   text-align: center;
   height: 911px;
-  background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
+  background: @mainGray*2;
+  //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   //padding-top: 50px;
   //padding-bottom: 50px;
@@ -346,7 +358,8 @@ a{
 .dostavkaBlock{
   height: 100vh;
   text-align: center;
-  background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
+  background-color: @mainGray*2;
+  //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .dostavkaCard{
@@ -372,7 +385,8 @@ a{
 .vizitkiFon{
   height: 1000px;
   text-align: center;
-  background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
+  background: @mainGray*2;
+  //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 
 }
@@ -380,7 +394,7 @@ a{
   width: 1100px;
   height: 450px;
   padding-top: 50px;
-  margin-top: ;
+  margin-top:0px;
   background-color: @itemCardColor;
   border-radius: 10px;
   display: flex;
