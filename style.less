@@ -2,7 +2,7 @@
 
 @mainColorHeader:#006955;  //темно бежевый #B7582A; // red #CF3E29;
 @mainColorLight: #DA8A46;
-@mainGray:#696752;
+@mainGray:#cccccc;
 @textColor:#241B1C;
 @bigButton: #cb132d;
 @itemCardColor:#E7EEE7; //#DBC2A4;
@@ -227,7 +227,7 @@ a{
  // height: 500px;
   //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
   background-color: @mainGray;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  //box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   //padding-top: 50px;
   //padding-bottom: 50px;
 }
@@ -235,9 +235,17 @@ a{
   display: flex;
   justify-content: space-evenly;
 }
+.priemPicOne{
+  background-image: url("./img/priem/mbridelivery_99588 1.svg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
 .priemCard{
   width: 300px;
-  height: 150px;
+  height: 280px;
   border-radius: 10px;
   margin-bottom: 55px;
   background-color: @mainColorHeader;
@@ -255,8 +263,8 @@ a{
   text-align: center;
   height: 500px;
  // background: linear-gradient(90deg,@bigButton 0%,@mainColorHeader 49.75%,@bigButton 100%);
-  background-color: @mainColorHeader;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  background-color: @mainGray;
+  //box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   //padding-top: 50px;
   //padding-bottom: 50px;
 }

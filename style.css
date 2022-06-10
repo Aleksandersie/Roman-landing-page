@@ -110,7 +110,7 @@ a {
 .itemBlock {
   height: 850px;
   text-align: center;
-  background-color: #696752;
+  background-color: #cccccc;
 }
 .fon {
   background-image: url("img/fon2.jpg");
@@ -164,7 +164,7 @@ a {
 }
 .dizaynBlock {
   height: 500px;
-  background-color: #bdb994;
+  background-color: #ffffff;
   text-align: center;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
@@ -199,16 +199,23 @@ a {
 }
 .priemContainer {
   text-align: center;
-  background-color: #696752;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  background-color: #cccccc;
 }
 .priemBlock {
   display: flex;
   justify-content: space-evenly;
 }
+.priemPicOne {
+  background-image: url("img/priem/mbridelivery_99588 1.svg");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
 .priemCard {
   width: 300px;
-  height: 150px;
+  height: 280px;
   border-radius: 10px;
   margin-bottom: 55px;
   background-color: #006955;
@@ -225,8 +232,7 @@ a {
 .otzivyContainer {
   text-align: center;
   height: 500px;
-  background-color: #006955;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  background-color: #cccccc;
 }
 .otzivy {
   display: flex;
@@ -254,7 +260,7 @@ a {
 .oNasContainer {
   text-align: center;
   height: 911px;
-  background: #d2cea4;
+  background: #ffffff;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .oNasBlock {
@@ -320,7 +326,7 @@ a {
 .dostavkaBlock {
   height: 100vh;
   text-align: center;
-  background-color: #d2cea4;
+  background-color: #ffffff;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .dostavkaCard {
@@ -339,7 +345,7 @@ a {
 .vizitkiFon {
   height: 1000px;
   text-align: center;
-  background: #d2cea4;
+  background: #ffffff;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .vizitkiBlock {
