@@ -6,41 +6,74 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<section class="dostavka">
-    <div class="dostavkaBlock container">
+<selection class="top">
+    <div class="topStripe container">
         <div class="container">
-            <div class="testImg"><selection class="top">
-                <div class="topStripe container testBox ">
-                    <div class="container">
-                        <section class="top">
-                            <div class="stripeContainer">
-                                <a href="index.html" class="logo">LOGO</a>
-                                <nav>
-                                    <div class="navBlock">
-                                        <nav>
-                                            <ul class="menu">
-                                                <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+            <section class="top">
+                <div class="stripeContainer">
+                    <a href="index.html" class="logo">LOGO</a>
+                    <nav>
+                        <div class="navBlock">
+                            <nav>
+                                <ul class="menu">
+                                    <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
 
-                                                <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
-                                                <li class="menuList"><a href="#" class="menuLink">О нас</a></li>
-                                                <li class="menuList"><a href="#" class="menuLink">Контакты</a></li>
-                                                <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
-                                                <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+                                    <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">О нас</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">Контакты</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                                    <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
 
-                                            </ul>
+                                </ul>
 
-                                        </nav>
+                            </nav>
 
 
-                                    </div>
-                                </nav>
+                        </div>
+                    </nav>
 
-                            </div>
+                </div>
+                <div class="headerStripe container">
+                    <ul class="menuMini">
+                        <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
+                        <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
+                        <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Листовки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Холсты</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+</selection>
 
-                            </div>
-                        </section></section>
+<section class="sliderSection">
+    <div class="slider container">
+        <div class="sliderLine" id="sliderLine">
+            <div class="slideOne"><div class="slideOneText">Работа с вниманием к каждому заказу</div></div>
+            <div class="slideTwo"><div class="slideTwoText">Команда с многолетним опытом</div></div>
+            <div class="slideThree"><div class="slideThreeText">Бесплатная парковка для клиентов</div></div>
+        </div>
+    </div>
+</section>
 
+
+
+<script>
+    'use strict'
+    let offset = 0;
+    let sliderLine = document.getElementById('sliderLine');
+    setInterval(topSlider, 3000);
+
+    function topSlider() {
+        offset -= 1200;
+        if (offset < -2400) {
+            offset = 0;
+        }
+        sliderLine.style.left = offset + 'px';
+    };
+</script>
 <footer>
     <div class="footer container">
         <div class="footerContainer">
