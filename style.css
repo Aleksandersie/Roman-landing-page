@@ -177,8 +177,7 @@ a {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 40px;
-  text-shadow: 5px 5px 5px #121212;
-  color: #e7eee7;
+  color: black;
 }
 .opisanieDiz {
   display: flex;
@@ -279,7 +278,7 @@ a {
 .oNasContainer {
   text-align: center;
   height: 911px;
-  background: #cccccc;
+  background: #e7eee7;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .oNasBlock {
@@ -345,7 +344,7 @@ a {
 .dostavkaBlock {
   height: 1000px;
   text-align: center;
-  background-color: #cccccc;
+  background-color: #e7eee7;
 }
 .dostavkaCard {
   width: 1000px;
@@ -354,13 +353,11 @@ a {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 30px;
-  background-color: #e7eee7;
   border-radius: 10px;
   padding-top: 40px;
   font-size: 19px;
   font-weight: 500;
   line-height: 30px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -554,6 +551,11 @@ a {
   font-size: 31px;
   border-bottom: 7px solid red;
 }
+.contactBlock {
+  height: 1000px;
+  text-align: center;
+  background-color: #e7eee7;
+}
 .contactCard {
   width: 1000px;
   height: 550px;
@@ -561,13 +563,11 @@ a {
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  background-color: #e7eee7;
   border-radius: 10px;
   padding-top: 40px;
   font-size: 19px;
   font-weight: 500;
   line-height: 30px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   padding-left: 20px;
   padding-right: 20px;
 }
