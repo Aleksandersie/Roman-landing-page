@@ -383,15 +383,20 @@ a{
 
 ///////////DOSTAVKA/////////////////////////////////////////////////////////////////
 .dostavkaBlock{
-  height: 100vh;
+  height: 1000px;
   text-align: center;
-  background-color: @mainGray*2;
+  background-color: @mainGray;
   //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  //box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .dostavkaCard{
-  width: 700px;
-  height: 160px;
+  width: 1000px;
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+
   background-color: @itemCardColor;
   border-radius: 10px;
   padding-top: 40px;
@@ -402,8 +407,24 @@ a{
   padding-left: 20px;
   padding-right: 20px;
 }
-.dostavkaPtext{
 
+.dostavkaPic{
+  width: 250px;
+  height: 204px;
+  background-image: url("./img/dostavka/dostavkaPic.svg");
+}
+.dostavkaPtext{
+  width: 500px;
+  text-align: left;
+}
+.sLine{
+  border-left: 5px solid red;
+  padding-right: 10px;
+}
+.kura{
+  background-image: url("./img/dostavka/kura.svg");
+  width: 250px;
+  height: 250px;
 }
 
 /////////////vizitki///////////////////////////
