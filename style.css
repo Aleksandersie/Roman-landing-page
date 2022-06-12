@@ -348,9 +348,8 @@ a {
 }
 .dostavkaCard {
   width: 1000px;
-  height: 550px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
   border-radius: 10px;
@@ -360,6 +359,8 @@ a {
   line-height: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 100px;
+  margin-top: 50px;
 }
 .dostavkaPic {
   width: 250px;
@@ -376,8 +377,10 @@ a {
 }
 .kura {
   background-image: url("img/dostavka/kura.svg");
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 .vizitkiFon {
   height: 1000px;
