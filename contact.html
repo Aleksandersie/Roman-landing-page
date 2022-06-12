@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Наклейки</title>
+    <title>Контакты</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,32 +52,38 @@
         </div>
 </selection>
 
-<section class="sliderSection">
-    <div class="slider container">
-        <div class="sliderLine" id="sliderLine">
-            <div class="slideOne"><div class="slideOneText">Работа с вниманием к каждому заказу</div></div>
-            <div class="slideTwo"><div class="slideTwoText">Команда с многолетним опытом</div></div>
-            <div class="slideThree"><div class="slideThreeText">Бесплатная парковка для клиентов</div></div>
+
+<section class="contact">
+    <div class="dostavkaBlock container">
+        <h3 class="h3shadow">Как нас найти</h3>
+        <div class="contactCard container">
+            <div class="contactPic"></div>
+            <div class="contactText">
+                <h2>Контакты:</h2>
+                <div class="contactTextContainer">
+                    <div class="contactTextContainerLeft">
+                       Адреса для самовывоза: <br>
+                        ул. Митрофана Седина <br>
+                        ул. Трамвайная 17 <br>
+                        photos.holst@gmail.com
+                    </div>
+                    <div class="contactTextContainerRight">
+
+                        Часы работы:<br>
+                        с 10 до 19 часов <br>
+                        с 9 до 18 часов <br>
+                        тел.8(938)417-555-8
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+
     </div>
 </section>
 
 
-
-<script>
-    'use strict'
-    let offset = 0;
-    let sliderLine = document.getElementById('sliderLine');
-    setInterval(topSlider, 3000);
-
-    function topSlider() {
-        offset -= 1200;
-        if (offset < -2400) {
-            offset = 0;
-        }
-        sliderLine.style.left = offset + 'px';
-    };
-</script>
 <footer>
     <div class="footer container">
         <div class="footerContainer">
@@ -92,6 +98,11 @@
         </div>
     </div>
 </footer>
+
+
+
+</div>
+<script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
