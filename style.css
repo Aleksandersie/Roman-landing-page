@@ -110,7 +110,7 @@ a {
 .itemBlock {
   height: 850px;
   text-align: center;
-  background-color: #cccccc;
+  background-color: #fef5e6;
 }
 .fon {
   background-image: url("img/fon2.jpg");
@@ -198,7 +198,7 @@ a {
 }
 .priemContainer {
   text-align: center;
-  background-color: #cccccc;
+  background-color: #fef5e6;
 }
 .priemBlock {
   display: flex;
@@ -250,7 +250,7 @@ a {
 .otzivyContainer {
   text-align: center;
   height: 500px;
-  background-color: #cccccc;
+  background-color: #fef5e6;
 }
 .otzivy {
   display: flex;
@@ -278,7 +278,7 @@ a {
 .oNasContainer {
   text-align: center;
   height: 911px;
-  background: #e7eee7;
+  background: #fef5e6;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .oNasBlock {
@@ -345,7 +345,7 @@ a {
 .dostavkaBlock {
   height: 1000px;
   text-align: center;
-  background-color: #e7eee7;
+  background-color: #fef5e6;
 }
 .dostavkaCard {
   width: 1000px;
@@ -561,7 +561,7 @@ a {
 .contactBlock {
   height: 1000px;
   text-align: center;
-  background-color: #e7eee7;
+  background-color: #fef5e6;
 }
 .contactCard {
   width: 1000px;
