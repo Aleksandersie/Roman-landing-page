@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: 'Alumni Sans', sans-serif;
+  font-family: 'Cormorant SC', serif;
 }
 a {
   text-decoration: none;
@@ -44,8 +44,7 @@ a {
   margin-top: 7px;
 }
 .menuLink {
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
   color: #e7eee7;
@@ -61,7 +60,6 @@ a {
   color: white;
   left: 39px;
   font-weight: 600;
-  letter-spacing: 1px;
   font-size: 20px;
 }
 .headerStripe {
@@ -110,7 +108,7 @@ a {
   left: 575px;
 }
 .itemBlock {
-  height: 850px;
+  height: 1170px;
   text-align: center;
   background-color: #fef5e6;
 }
@@ -131,7 +129,7 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 300px;
+  width: 310px;
   height: 300px;
   background-color: #e7eee7;
   border-radius: 10px;
@@ -145,7 +143,6 @@ a {
   margin-top: 20px;
   margin-bottom: 14px;
   font-weight: 500;
-  letter-spacing: 5px;
   font-size: 30px;
 }
 .itemPic {
@@ -216,7 +213,7 @@ a {
   width: 166px;
   height: 90px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .priemPicTwo {
@@ -225,7 +222,7 @@ a {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 .priemPicThree {
@@ -234,12 +231,12 @@ a {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 .priemCard {
-  width: 300px;
-  height: 280px;
+  width: 240px;
+  height: 270px;
   border-radius: 10px;
   margin-bottom: 55px;
   background-color: #417e6f;
@@ -248,20 +245,29 @@ a {
 .h3Priem {
   margin-top: 15px;
   color: white;
-  letter-spacing: 1px;
 }
 .PriemP {
   color: white;
   margin-top: 10px;
   font-size: 20px;
-  letter-spacing: 1px;
 }
 .otzivyContainer {
   text-align: center;
   height: 500px;
+  width: 1200px;
+  overflow: hidden;
   background-color: #fef5e6;
 }
 .otzivy {
+  width: 4800px;
+  position: relative;
+  left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all ease 2s;
+}
+.otzivSliderLineBlock {
+  width: 1200px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -273,7 +279,7 @@ a {
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .otzivText {
-  padding: 10px;
+  padding: 22px;
 }
 .otzivPic {
   height: 100px;
@@ -306,7 +312,6 @@ a {
   margin-top: 18px;
   text-align: left;
   font-size: 20px;
-  letter-spacing: 1px;
 }
 .oNasBlock2 {
   display: flex;
@@ -360,18 +365,16 @@ a {
 .dostavkaCard {
   width: 1000px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
   border-radius: 10px;
-  padding-top: 40px;
   font-size: 19px;
   font-weight: 500;
   line-height: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 100px;
-  margin-top: 50px;
+  margin-bottom: 70px;
 }
 .dostavkaPic {
   width: 250px;
@@ -382,7 +385,6 @@ a {
   width: 500px;
   text-align: left;
   font-size: 20px;
-  letter-spacing: 1px;
 }
 .sLine {
   border-left: 5px solid red;
@@ -419,7 +421,6 @@ a {
   margin-bottom: 10px;
   text-align: left;
   line-height: 25px;
-  letter-spacing: 1px;
 }
 .gallerySlider {
   display: flex;
@@ -516,7 +517,6 @@ a {
 .menuLinkMini {
   color: #e7eee7;
   font-size: 20px;
-  letter-spacing: 1px;
 }
 .menuLinkMini:hover {
   border-bottom: 2px solid #e7eee7;
