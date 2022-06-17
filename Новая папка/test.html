@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+<div class="cont">
+    <div class="slider cont">
+    <div class="topLine cont" id="sliderLine">
+        <div class="imgOne" ></div>
+        <div class="imgTwo"></div>
+        <div class="imgThree"></div>
+    </div>
+    </div>
+    <div class="bottomLine cont">
+        <div class="bottomContOne" id="one"></div>
+        <div class="bottomContTwo" id="two"></div>
+        <div class="bottomContThree" id="three"></div>
+    </div>
+</div>
+
+<script>
+    let offset = 0;
+
+    let sliderLine = document.getElementById('sliderLine');
+
+    document.getElementById('one').addEventListener('click',function () {
+        offset = 0;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('two').addEventListener('click',function () {
+        offset = -300;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('three').addEventListener('click',function () {
+        offset = -600;
+        sliderLine.style.left = offset + 'px';
+    });
+</script>
+</body>
+</html>

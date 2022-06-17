@@ -161,11 +161,27 @@ a{
   border-radius: 10px;
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   &:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: all ease 0.3s;
   }
 
 }
+.item:hover .itemPic{
+  transform: translate(5px,5px);
+  transform: scale(1.2);
+
+}
+.item:hover .itemHolst{
+  transform: scale(1.2);
+}
+.itemPicCont{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
 .itemTextBig{
   margin-top: 20px;
   margin-bottom: 14px;
@@ -181,6 +197,8 @@ a{
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 1px 0px 11px 2px rgba(0, 0, 0, 0.95) inset;
+  transition: 1.5s;
+
 }
 .itemHolst{
   width: 200px;
@@ -190,6 +208,7 @@ a{
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 1px 0px 11px 2px rgba(0, 0, 0, 0.95) inset;
+  transition: 1.5s;
 }
 .dizaynBlock {
   height: 500px;
@@ -262,6 +281,15 @@ a{
 }
 .priemPicThree{
   background-image: url("./img/priem/hands.svg");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.priemPicFour{
+  background-image: url("./img/priem/watch.svg");
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
@@ -509,12 +537,20 @@ a{
   display: flex;
   left: 0px;
   position: relative;
+  //opacity: 0;
+ // animation: ani 2.5s forwards;
+  @keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
 }
 .gallerySliderBottom{
   display: flex;
   justify-content: space-evenly;
   width: 400px;
   margin-top: 5px;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .vizPicMiniOne{
@@ -557,6 +593,54 @@ a{
   width: 95px;
   height: 95px;
   background-image: url("./img/vizitkiSlider/Slide4mini.jpg");
+  border-radius: 10px;
+  box-shadow: @shadowOne;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.04);
+    transition: all ease 0.3s;
+  }
+}
+.vizPicMiniFifth{
+  width: 95px;
+  height: 95px;
+  background-image: url("./img/vizitkiSlider/Slide5mini.jpg");
+  border-radius: 10px;
+  box-shadow: @shadowOne;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.04);
+    transition: all ease 0.3s;
+  }
+}
+.vizPicMiniSixth{
+  width: 95px;
+  height: 95px;
+  background-image: url("./img/vizitkiSlider/Slide6mini.jpg");
+  border-radius: 10px;
+  box-shadow: @shadowOne;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.04);
+    transition: all ease 0.3s;
+  }
+}
+.vizPicMiniSeventh{
+  width: 95px;
+  height: 95px;
+  background-image: url("./img/vizitkiSlider/Slide7mini.jpg");
+  border-radius: 10px;
+  box-shadow: @shadowOne;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.04);
+    transition: all ease 0.3s;
+  }
+}
+.vizPicMiniEighth{
+  width: 95px;
+  height: 95px;
+  background-image: url("./img/vizitkiSlider/Slide8mini.jpg");
   border-radius: 10px;
   box-shadow: @shadowOne;
   cursor: pointer;
