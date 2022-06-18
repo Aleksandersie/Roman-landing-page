@@ -55,22 +55,30 @@
 <selection class="nakleiki">
     <div class="nakleikiFon container">
         <h3 class="h3shadow">Наклейки</h3>
-        <div class="vizitkiBlock container">
-            <div class="vizitkiSlider">
+        <div class="naclBlock container">
+            <div class="naclSlider">
                 <div class="gallerySlider">
                     <div class="gallerySliderTop">
                         <div class="sliderTopLine" id="sliderTopLine">
-                            <img src="img/vizitkiSlider/Slide1.jpg" alt="1">
-                            <img src="img/vizitkiSlider/Slide2.jpg" alt="1">
-                            <img src="img/vizitkiSlider/Slide3.jpg" alt="1">
-                            <img src="img/vizitkiSlider/Slide4.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide1.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide2.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide3.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide4.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide5.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide6.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide7.jpg" alt="1">
+                            <img src="img/naklSlider/naklSlide8.jpg" alt="1">
                         </div>
                     </div>
                     <div class="gallerySliderBottom">
-                        <div class="vizPicMiniOne" id="vizPicMiniOne"></div>
-                        <div class="vizPicMiniTwo" id="vizPicMiniTwo"></div>
-                        <div class="vizPicMiniThree" id="vizPicMiniThree"></div>
-                        <div class="vizPicMiniFour" id="vizPicMiniFour"></div>
+                        <div class="naklPicMiniOne" id="PicMiniOne"></div>
+                        <div class="naklPicMiniTwo" id="PicMiniTwo"></div>
+                        <div class="naklPicMiniThree" id="vizPicMiniThree"></div>
+                        <div class="naklPicMiniFour" id="vizPicMiniFour"></div>
+                        <div class="naklPicMiniFifth" id="vizPicMiniFifth"></div>
+                        <div class="naklPicMiniSixth" id="vizPicMiniSixth"></div>
+                        <div class="naklPicMiniSeventh" id="vizPicMiniSeventh"></div>
+                        <div class="naklPicMiniEighth" id="vizPicMiniEighth"></div>
                     </div>
                 </div>
             </div>
@@ -107,18 +115,45 @@
 
 
 <script>
+
     'use strict'
     let offset = 0;
-    let sliderLine = document.getElementById('sliderLine');
-    setInterval(topSlider, 3000);
 
-    function topSlider() {
-        offset -= 1200;
-        if (offset < -2400) {
-            offset = 0;
-        }
+    let sliderLine = document.getElementById('sliderTopLine');
+
+    document.getElementById('PicMiniOne').addEventListener('click',function () {
+        offset = 0;
         sliderLine.style.left = offset + 'px';
-    };
+
+    });
+    document.getElementById('PicMiniTwo').addEventListener('click',function () {
+        offset = -400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniThree').addEventListener('click',function () {
+        offset = -800;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFour').addEventListener('click',function () {
+        offset = -1200;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFifth').addEventListener('click',function () {
+        offset = -1600;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSixth').addEventListener('click',function () {
+        offset = -2000;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSeventh').addEventListener('click',function () {
+        offset = -2400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniEighth').addEventListener('click',function () {
+        offset = -2800;
+        sliderLine.style.left = offset + 'px';
+    });
 </script>
 <footer>
     <div class="footer container">

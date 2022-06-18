@@ -113,10 +113,6 @@ a {
   text-align: center;
   background-color: #fef5e6;
 }
-.fon {
-  background-image: url("img/fon2.jpg");
-  background-repeat: no-repeat;
-}
 .itemLine {
   display: flex;
   justify-content: space-evenly;
@@ -134,7 +130,7 @@ a {
   height: 300px;
   background-color: #e7eee7;
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
 }
 .item:hover {
   transform: scale(1.02);
@@ -145,6 +141,9 @@ a {
   transform: scale(1.2);
 }
 .item:hover .itemHolst {
+  transform: scale(1.2);
+}
+.item:hover .itemNakl {
   transform: scale(1.2);
 }
 .itemPicCont {
@@ -163,7 +162,7 @@ a {
 .itemPic {
   width: 200px;
   height: 200px;
-  background-image: url("img/tetsItemPic.jpg");
+  background-image: url("img/itemCardPic/tetsItemPic.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
   border-radius: 10px;
@@ -173,7 +172,17 @@ a {
 .itemHolst {
   width: 200px;
   height: 200px;
-  background-image: url("img/holstCard.jpg");
+  background-image: url("img/itemCardPic/holstCard.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 1px 0px 11px 2px rgba(0, 0, 0, 0.95) inset;
+  transition: 1.5s;
+}
+.itemNakl {
+  width: 200px;
+  height: 200px;
+  background-image: url("img/itemCardPic/nakltCard.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
   border-radius: 10px;
@@ -266,7 +275,7 @@ a {
   border-radius: 10px;
   margin-bottom: 55px;
   background-color: #417e6f;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
 }
 .h3Priem {
   margin-top: 15px;
@@ -300,9 +309,6 @@ a {
 .otziv {
   width: 300px;
   height: 320px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .otzivText {
   padding: 22px;
@@ -458,7 +464,7 @@ a {
   height: 300px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
 }
 .sliderTopLine {
   width: 1600px;
@@ -487,7 +493,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide1mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniOne:hover {
@@ -499,7 +505,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide2mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniTwo:hover {
@@ -511,7 +517,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide3mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniThree:hover {
@@ -523,7 +529,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide4mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniFour:hover {
@@ -535,7 +541,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide5mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniFifth:hover {
@@ -547,7 +553,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide6mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniSixth:hover {
@@ -559,7 +565,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide7mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniSeventh:hover {
@@ -571,7 +577,7 @@ a {
   height: 95px;
   background-image: url("img/vizitkiSlider/Slide8mini.jpg");
   border-radius: 10px;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
   cursor: pointer;
 }
 .vizPicMiniEighth:hover {
@@ -705,6 +711,113 @@ a {
   height: 1000px;
   text-align: center;
   background: #fef5e6;
+}
+.naclBlock {
+  width: 1100px;
+  height: 450px;
+  padding-top: 50px;
+  margin-top: 0px;
+  border-radius: 10px;
+  display: flex;
+}
+.naclSlider {
+  width: 50%;
+}
+.naklPicMiniOne {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide1mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniOne:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.naklPicMiniTwo {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide2mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniTwo:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.naklPicMiniThree {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide3mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniThree:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.naklPicMiniFour {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide4mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniFour:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.naklPicMiniFifth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide5mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniFifth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.naklPicMiniSixth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide6mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniSixth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.naklPicMiniSeventh {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide7mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniSeventh:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.naklPicMiniEighth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/naklSlider/naklSlide8mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.naklPicMiniEighth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
 }
 .vizitkiText {
   width: 50%;
