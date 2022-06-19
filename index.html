@@ -47,12 +47,14 @@
 <section class="sliderSection">
     <div class="slider container">
         <div class="sliderLine" id="sliderLine">
-            <img src="img/Slider.jpg" alt="">
-            <img src="img/Slider2.jpg" alt="">
-            <div class="sliderImg"><img src="img/Slider1.jpg" alt=""></div>
-            <div class="slider1text">
-                Индивидуальный подход к <br> каждому клиенту
-            </div>
+            <div class="sliderImg"><img src="./img/mailSlider/Slider1.jpg" alt="Slider"><div class="mainSliderTextOne">Работа с вниманием
+                <br> к каждому заказу</div></div>
+            <div class="sliderImg"><img src="./img/mailSlider/Slider2.jpg"  alt="Slider"><div class="mainSliderTextTwo">Команда с многолетним опытом</div></div>
+            <div class="sliderImg"><img src="./img/mailSlider/Slider3.jpg"  alt="Slider"><div class="mainSliderTextTwo">Бесплатная парковка для клиентов</div></div>
+            <div class="sliderImg"><img src="./img/mailSlider/Slider4.jpg"  alt="Slider"><div class="mainSliderTextFour">Печать на оригинальных материалах</div></div>
+            <div class="sliderImg"><img src="./img/mailSlider/Slider5.jpg"  alt="Slider"><div class="mainSliderTextFift">Сервис полного цикла печати:
+                <br> от макета до доставки</div></div>
+
         </div>
     </div>
 </section>
@@ -96,7 +98,7 @@
             </a>
         </div>
         <div class="itemLine2">
-            <a href="holst.html">
+            <a href="dreamArt.html">
                 <div class="item"><h2 class="itemTextBig">Стилизация фото</h2>
                     <div class="itemPicCont"><div class="itemHolst"></div>
                     </div>
@@ -270,18 +272,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-<!--                <div class="otziv">-->
-<!--                    <div class="otzivPic"></div>-->
-<!--                    <div class="otzivText">-->
-<!--                        <h4>Ирина Кирпичева</h4><br>-->
-<!--                        Выражаю благодарность за проделанную работу! За красивый макет и качественные-->
-<!--                        наклейки. Сработали очень оперативно!!-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
 
         </div>
@@ -347,17 +337,20 @@
 <script>
     'use strict'
     let offsetTop = 0;
+    let text = 0;
+    let textBlock = document.getElementById('sliderText');
     let sliderLine = document.getElementById('sliderLine');
     let offsetOtzivy = 0;
     let otzivyLine = document.getElementById('otzivyLine');
 
 
     setInterval(topSlider, 3000);
-    setInterval(OtzivySlider, 3000);
+    setInterval(OtzivySlider, 6000);
 
     function topSlider() {
+
         offsetTop -= 1200;
-        if (offsetTop < -2400) {
+        if (offsetTop < -1200*4) {
             offsetTop = 0;
         }
         sliderLine.style.left = offsetTop + 'px';

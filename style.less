@@ -92,15 +92,7 @@ a{
   position: relative;
   overflow: hidden;
 }
-.testBox{
 
-  filter: opacity(0.9);
-}
-.testImg{
-  background-image: url("img/Slider1.jpg");
-  width: 1200px;
-  height: 400px;
-}
 .sliderLine{
  width: @mainWidth*3;
  display: flex;
@@ -109,27 +101,52 @@ a{
  transition: all ease 2s;
 
 }
-.sliderImg{
-  width: 1200px;
-  height: 400px;
-  //background-color: grey;
-  //background-image: url("img/Slider1.jpg");
+.mainSliderTextOne{
+  position: relative;
+  top: -106px;
+  left: 852px;
+  font-size: 32px;
+  background-color: white;
+  width: 323px;
+  text-align: center;
+  border-bottom: 5px solid red;
+  opacity: 0.9;
+}
+.mainSliderTextTwo{
+  position: relative;
+  top: -106px;
+  left: 824px;
+  font-size: 32px;
+  background-color: white;
+  width: 350px;
+  text-align: center;
+  border-bottom: 5px solid red;
+  opacity: 0.9;
+}
+.mainSliderTextFour{
+  position: relative;
+  top: -106px;
+  left: 786px;
+  font-size: 32px;
+  background-color: white;
+  width: 390px;
+  text-align: center;
+  border-bottom: 5px solid red;
+  opacity: 0.9;
+}
+.mainSliderTextFift{
+  position: relative;
+  top: -144px;
+  left: 786px;
+  font-size: 32px;
+  background-color: white;
+  width: 390px;
+  text-align: center;
+  border-bottom: 5px solid red;
+  opacity: 0.9;
 }
 
-.slider1text{
-  border-left: 7px solid @bigButton;
-  color: @textColor;
-  font-size: 40px;
-  text-align: left;
-  padding: 12px;
-  font-weight: 400;
-  width: 565px;
-  height: 101px;
-  background-color: white;
-  position: relative;
-  top: -166px;
-  left: 575px;
-}
+
 .itemBlock{
   height: 1170px;
   text-align: center;
@@ -1066,4 +1083,29 @@ a{
   text-align: left;
   line-height: 25px;
   letter-spacing: 1px;
+}
+
+//////////////////////////////////////dream art/////////////////////////////////////////////
+
+.dreamArtBackG{
+  height: 1000px;
+  text-align: center;
+  background: @mainGray;
+}
+.dreamArtBlock {
+  width: 1100px;
+  height: 450px;
+  padding-top: 50px;
+  margin-top: 0px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.dreamArtPic{
+  width: 50%;
+}
+
+.dreamArtPic img{
+  border-radius: 10px;
+  box-shadow: @shadowOne;
 }

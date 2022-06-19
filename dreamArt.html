@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Стилизация фотографий</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<selection class="top">
+    <div class="topStripe container">
+        <div class="container">
+            <section class="top">
+                <div class="stripeContainer">
+                    <a href="index.html" class="logo">LOGO</a>
+                    <nav>
+                        <div class="navBlock">
+                            <nav>
+                                <ul class="menu">
+                                    <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+
+                                    <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                                    <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
+                                    <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                                    <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+
+                                </ul>
+
+                            </nav>
+
+
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="headerStripe container">
+                    <ul class="menuMini">
+                        <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
+                        <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
+                        <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
+                        <li class="menuListMini"><a href="leaflet.html" class="menuLinkMini">Листовки</a></li>
+                        <li class="menuListMini"><a href="holst.html" class="menuLinkMini">Холсты</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+</selection>
+<selection class="dreamArt">
+    <div class="dreamArtBackG container">
+        <h3 class="h3shadow">Стилизация фоотографий</h3>
+        <div class="dreamArtBlock container">
+            <div class="dreamArtPic">
+                <img src="img/stylise/dreamArt.jpg" alt="dreamArtPic">
+            </div>
+            <div class="vizitkiText">
+                <p><span class="sLine"></span>В нашей студии вы можете заказать стилизацию ваших фотографий, для дальнейшей печати на
+                    холсте. Отрисовка происходит в ручную на графическом планшете. В итоге получаются
+                    уникальные работы, которые не похожи на предыдущие. Наши художники рисуют в любом стиле,
+                    вам нужно всего лишь прислать фотографию, и показать пример, какую работу вы хотели бы
+                    получить. <br>
+                <p><span class="sLine"></span>Стоимость работы зависит от количества людей на фотографии. К примеру, отрисовка фотографии
+                    с одной персоной, будет стоить 1100р. <br>
+                <p><span class="sLine"></span>Мы занимаемся стилизацией фотографий в Краснодаре уже 3 года, и заработали достойную
+                    доверия репутацию. Накопленный опыт работ в данной сфере, позволяет нам выполнять работы
+                    любой сложности. Убедитесь в нашей дружелюбной системе и вы..</p>
+
+                <div class="redButtonViz">Оформить заказ</div>
+
+
+            </div>
+
+        </div>
+    </div>
+</selection>
+
+
+<footer>
+    <div class="footer container">
+        <div class="footerContainer">
+            <div class="logoFooter">LOGO</div>
+            <div class="socialIconBox">
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-brands fa-vk icon"></i>
+                <i class="fa-brands fa-whatsapp icon"></i>
+                <i class="fa-brands fa-telegram icon"></i>
+                <i class="fa-solid fa-envelope icon"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    'use strict'
+    let offset = 0;
+
+    let sliderLine = document.getElementById('sliderTopLine');
+
+    document.getElementById('vizPicMiniOne').addEventListener('click',function () {
+        offset = 0;
+        sliderLine.style.left = offset + 'px';
+
+    });
+    document.getElementById('vizPicMiniTwo').addEventListener('click',function () {
+        offset = -400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniThree').addEventListener('click',function () {
+        offset = -800;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFour').addEventListener('click',function () {
+        offset = -1200;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFifth').addEventListener('click',function () {
+        offset = -1600;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSixth').addEventListener('click',function () {
+        offset = -2000;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSeventh').addEventListener('click',function () {
+        offset = -2400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniEighth').addEventListener('click',function () {
+        offset = -2800;
+        sliderLine.style.left = offset + 'px';
+    });
+</script>
+
+</div>
+<script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
