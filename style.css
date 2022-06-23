@@ -1231,3 +1231,145 @@ a {
   line-height: 25px;
   letter-spacing: 1px;
 }
+.bookletBackG {
+  height: 1000px;
+  text-align: center;
+  background: #fef5e6;
+}
+.bookletBlock {
+  width: 1100px;
+  height: 450px;
+  padding-top: 50px;
+  margin-top: 0px;
+  border-radius: 10px;
+  display: flex;
+}
+.bookletSlider {
+  width: 50%;
+}
+.bookletPicMiniOne {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide1mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniOne:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletPicMiniTwo {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide2mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniTwo:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletPicMiniThree {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide3mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniThree:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletPicMiniFour {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide4mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniFour:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletPicMiniFifth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide5mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniFifth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletPicMiniSixth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide6mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniSixth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletPicMiniSeventh {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide7mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniSeventh:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletPicMiniEighth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/bookletSlider/slide8mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.bookletPicMiniEighth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.bookletText {
+  width: 50%;
+  padding: 0px 50px 50px 50px;
+  color: #241b1c;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.desingBackG {
+  height: 1250px;
+  text-align: center;
+  background: #fef5e6;
+}
+.desingBlock {
+  width: 1100px;
+  height: 450px;
+  padding-top: 20px;
+  margin-top: 0px;
+  border-radius: 10px;
+  display: flex;
+}
+.desingPic {
+  width: 50%;
+}
+.desingPic img {
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+}

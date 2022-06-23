@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Буклеты</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<selection class="top">
+  <div class="topStripe container">
+    <div class="container">
+      <section class="top">
+        <div class="stripeContainer">
+          <a href="index.html" class="logo">LOGO</a>
+          <nav>
+            <div class="navBlock">
+              <nav>
+                <ul class="menu">
+                  <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+
+                  <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                  <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
+                  <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
+                  <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                  <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+
+                </ul>
+
+              </nav>
+
+
+            </div>
+          </nav>
+
+        </div>
+        <div class="headerStripe container">
+          <ul class="menuMini">
+            <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
+            <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
+            <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
+            <li class="menuListMini"><a href="leaflet.html" class="menuLinkMini">Листовки</a></li>
+            <li class="menuListMini"><a href="holst.html" class="menuLinkMini">Холсты</a></li>
+            <li class="menuListMini"><a href="label.html" class="menuLinkMini">Бирки</a></li>
+            <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+</selection>
+
+<selection class="booklet">
+  <div class="bookletBackG container">
+    <h3 class="h3shadow">Буклеты</h3>
+    <div class="bookletBlock container">
+      <div class="bookletSlider">
+        <div class="gallerySlider">
+          <div class="gallerySliderTop">
+            <div class="sliderTopLine" id="sliderTopLine">
+              <img src="img/bookletSlider/slide1.jpg" alt="1">
+              <img src="img/bookletSlider/slide2.jpg" alt="1">
+              <img src="img/bookletSlider/slide3.jpg" alt="1">
+              <img src="img/bookletSlider/slide4.jpg" alt="1">
+              <img src="img/bookletSlider/slide5.jpg" alt="1">
+              <img src="img/bookletSlider/slide6.jpg" alt="1">
+              <img src="img/bookletSlider/slide7.jpg" alt="1">
+              <img src="img/bookletSlider/slide8.jpg" alt="1">
+            </div>
+          </div>
+          <div class="gallerySliderBottom">
+            <div class="bookletPicMiniOne" id="PicMiniOne"></div>
+            <div class="bookletPicMiniTwo" id="PicMiniTwo"></div>
+            <div class="bookletPicMiniThree" id="PicMiniThree"></div>
+            <div class="bookletPicMiniFour" id="PicMiniFour"></div>
+            <div class="bookletPicMiniFifth" id="PicMiniFifth"></div>
+            <div class="bookletPicMiniSixth" id="PicMiniSixth"></div>
+            <div class="bookletPicMiniSeventh" id="PicMiniSeventh"></div>
+            <div class="bookletPicMiniEighth" id="PicMiniEighth"></div>
+          </div>
+        </div>
+      </div>
+      <div class="leafletText">
+        <p><span class="sLine"></span>Буклеты имеют более представительный вид, по отношению к другим видам
+          печатной продукции. Они могут нести в себе большее количество
+          информации, и подойдут для привлечения клиентов общепита, ознакомления
+          с продукцией компании на выставках. <br>
+          <span class="sLine"></span>Мы изготавливаем буклеты в Краснодаре с разными видами фальца и
+          плотностью. <br>
+          <span class="sLine"></span>Вам осталось только выбрать и позвонить нам! </p>
+
+        <div class="redButtonViz">Оформить заказ</div>
+
+
+      </div>
+
+    </div>
+  </div>
+</selection>
+
+
+
+<script>
+
+  'use strict'
+  let offset = 0;
+
+  let sliderLine = document.getElementById('sliderTopLine');
+
+  document.getElementById('PicMiniOne').addEventListener('click',function () {
+    offset = 0;
+    sliderLine.style.left = offset + 'px';
+
+  });
+  document.getElementById('PicMiniTwo').addEventListener('click',function () {
+    offset = -400;
+    sliderLine.style.left = offset + 'px';
+  });
+  document.getElementById('PicMiniThree').addEventListener('click',function () {
+    offset = -800;
+    sliderLine.style.left = offset + 'px';
+  });
+  document.getElementById('PicMiniFour').addEventListener('click',function () {
+    offset = -1200;
+    sliderLine.style.left = offset + 'px';
+  });
+  document.getElementById('PicMiniFifth').addEventListener('click',function () {
+    offset = -1600;
+    sliderLine.style.left = offset + 'px';
+  });
+  document.getElementById('PicMiniSixth').addEventListener('click',function () {
+    offset = -2000;
+    sliderLine.style.left = offset + 'px';
+  });
+  document.getElementById('PicMiniSeventh').addEventListener('click',function () {
+    offset = -2400;
+    sliderLine.style.left = offset + 'px';
+  });
+  document.getElementById('PicMiniEighth').addEventListener('click',function () {
+    offset = -2800;
+    sliderLine.style.left = offset + 'px';
+  });
+</script>
+<footer>
+  <div class="footer container">
+    <div class="footerContainer">
+      <div class="logoFooter">LOGO</div>
+      <div class="socialIconBox">
+        <i class="fa-brands fa-instagram icon"></i>
+        <i class="fa-brands fa-vk icon"></i>
+        <i class="fa-brands fa-whatsapp icon"></i>
+        <i class="fa-brands fa-telegram icon"></i>
+        <i class="fa-solid fa-envelope icon"></i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

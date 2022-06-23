@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Разработка макета</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<selection class="top">
+    <div class="topStripe container">
+        <div class="container">
+            <section class="top">
+                <div class="stripeContainer">
+                    <a href="index.html" class="logo">LOGO</a>
+                    <nav>
+                        <div class="navBlock">
+                            <nav>
+                                <ul class="menu">
+                                    <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+
+                                    <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                                    <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
+                                    <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                                    <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+
+                                </ul>
+
+                            </nav>
+
+
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="headerStripe container">
+                    <ul class="menuMini">
+                        <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
+                        <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
+                        <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
+                        <li class="menuListMini"><a href="leaflet.html" class="menuLinkMini">Листовки</a></li>
+                        <li class="menuListMini"><a href="holst.html" class="menuLinkMini">Холсты</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+</selection>
+<selection class="desing">
+    <div class="desingBackG container">
+        <h3 class="h3shadow">Разработка макета</h3>
+        <div class="desingBlock container">
+            <div class="desingPic">
+                <img src="img/desing/desingPic.jpg" alt="dreamArtPic">
+            </div>
+            <div class="vizitkiText">
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur dignissimos
+                    fugiat ipsa laudantium placeat possimus quasi sequi! Aspernatur dicta, dolorem doloremque doloribus esse est explicabo
+                    impedit iusto pariatur saepe soluta vitae. Accusantium asperiores consectetur,
+                    consequatur, dignissimos doloremque id itaque nemo non odio odit perspiciatis placeat porro quaerat repellendus tempore. <br>
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est non omnis quaerat tenetur, voluptatibus. <br>
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cum odio possimus.
+                Accusantium beatae deserunt ex expedita iure modi placeat
+                quasi reprehenderit repudiandae! Eius, expedita!</p>
+
+            </div>
+
+        </div>
+
+        <div class="desingBlock container">
+            <div class="vizitkiText">
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur dignissimos
+                    fugiat ipsa laudantium placeat possimus quasi sequi! Aspernatur dicta, dolorem doloremque doloribus esse est explicabo
+                    impedit iusto pariatur saepe soluta vitae. Accusantium asperiores consectetur,
+                    consequatur, dignissimos doloremque id itaque nemo non odio odit perspiciatis placeat porro quaerat repellendus tempore. <br>
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error est non omnis quaerat tenetur, voluptatibus. <br>
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cum odio possimus.
+                    Accusantium beatae deserunt ex expedita iure modi placeat
+                    quasi reprehenderit repudiandae! Eius, expedita!</p>
+
+            </div>
+
+            <div class="desingPic">
+                <img src="img/desing/desingPicTwo.jpg" alt="dreamArtPic">
+            </div>
+
+        </div>
+    </div>
+</selection>
+
+
+<footer>
+    <div class="footer container">
+        <div class="footerContainer">
+            <div class="logoFooter">LOGO</div>
+            <div class="socialIconBox">
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-brands fa-vk icon"></i>
+                <i class="fa-brands fa-whatsapp icon"></i>
+                <i class="fa-brands fa-telegram icon"></i>
+                <i class="fa-solid fa-envelope icon"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    'use strict'
+    let offset = 0;
+
+    let sliderLine = document.getElementById('sliderTopLine');
+
+    document.getElementById('vizPicMiniOne').addEventListener('click',function () {
+        offset = 0;
+        sliderLine.style.left = offset + 'px';
+
+    });
+    document.getElementById('vizPicMiniTwo').addEventListener('click',function () {
+        offset = -400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniThree').addEventListener('click',function () {
+        offset = -800;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFour').addEventListener('click',function () {
+        offset = -1200;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFifth').addEventListener('click',function () {
+        offset = -1600;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSixth').addEventListener('click',function () {
+        offset = -2000;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSeventh').addEventListener('click',function () {
+        offset = -2400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniEighth').addEventListener('click',function () {
+        offset = -2800;
+        sliderLine.style.left = offset + 'px';
+    });
+</script>
+
+</div>
+<script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
