@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Наклейки</title>
+    <title>Печать на холсте</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;300;400;500;600&display=swap"-->
-<!--          rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
 </head>
@@ -27,7 +25,7 @@
                                     <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
                                     <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
                                     <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
-                                    <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                                    <li class="menuList"><a href="requirement.html" class="menuLink">Требования<br>к макету</a></li>
                                     <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
 
                                 </ul>
@@ -44,41 +42,105 @@
                         <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
                         <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
                         <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
-                        <li class="menuListMini"><a href="" class="menuLinkMini">Листовки</a></li>
+                        <li class="menuListMini"><a href="leaflet.html" class="menuLinkMini">Листовки</a></li>
                         <li class="menuListMini"><a href="holst.html" class="menuLinkMini">Холсты</a></li>
-                        <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
-                        <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+                        <li class="menuListMini"><a href="label.html" class="menuLinkMini">Бирки</a></li>
+                        <li class="menuListMini"><a href="booklet.html" class="menuLinkMini">Буклеты</a></li>
                     </ul>
                 </div>
             </section>
         </div>
 </selection>
 
-<section class="sliderSection">
-    <div class="slider container">
-        <div class="sliderLine" id="sliderLine">
-            <div class="slideOne"><div class="slideOneText">Работа с вниманием к каждому заказу</div></div>
-            <div class="slideTwo"><div class="slideTwoText">Команда с многолетним опытом</div></div>
-            <div class="slideThree"><div class="slideThreeText">Бесплатная парковка для клиентов</div></div>
+<selection class="canvas">
+    <div class="canvasBackG container">
+        <h3 class="h3shadow">Печать на холсте</h3>
+        <div class="canvasBlock container">
+            <div class="canvasSlider">
+                <div class="gallerySlider">
+                    <div class="gallerySliderTop">
+                        <div class="sliderTopLine" id="sliderTopLine">
+                            <img src="img/canvas/slide1.jpg" alt="1">
+                            <img src="img/canvas/slide2.jpg"  alt="1">
+                            <img src="img/canvas/slide3.jpg"  alt="1">
+                            <img src="img/canvas/slide4.jpg"  alt="1">
+                            <img src="img/canvas/slide5.jpg"  alt="1">
+                            <img src="img/canvas/slide6.jpg"  alt="1">
+                            <img src="img/canvas/slide7.jpg" alt="1">
+                            <img src="img/canvas/slide8.jpg"  alt="1">
+                        </div>
+                    </div>
+                    <div class="gallerySliderBottom">
+                        <div class="canvasPicMiniOne" id="PicMiniOne"></div>
+                        <div class="canvasPicMiniTwo" id="PicMiniTwo"></div>
+                        <div class="canvasPicMiniThree" id="PicMiniThree"></div>
+                        <div class="canvasPicMiniFour" id="PicMiniFour"></div>
+                        <div class="canvasPicMiniFifth" id="PicMiniFifth"></div>
+                        <div class="canvasPicMiniSixth" id="PicMiniSixth"></div>
+                        <div class="canvasPicMiniSeventh" id="PicMiniSeventh"></div>
+                        <div class="canvasPicMiniEighth" id="PicMiniEighth"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="leafletText">
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                    blanditiis dolorem doloribus, eos est natus nostrum perferendis quo recusandae voluptas! <br>
+                <p><span class="sLine"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequatur deleniti,
+                deserunt doloremque est excepturi incidunt labore
+                laborum minus odio quam rem rerum saepe tempora? <br>
+                <p><span class="sLine"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, soluta!</p>
+
+
+
+
+            </div>
+
         </div>
     </div>
-</section>
+</selection>
 
 
 
 <script>
+
     'use strict'
     let offset = 0;
-    let sliderLine = document.getElementById('sliderLine');
-    setInterval(topSlider, 3000);
 
-    function topSlider() {
-        offset -= 1200;
-        if (offset < -2400) {
-            offset = 0;
-        }
+    let sliderLine = document.getElementById('sliderTopLine');
+
+    document.getElementById('PicMiniOne').addEventListener('click',function () {
+        offset = 0;
         sliderLine.style.left = offset + 'px';
-    };
+
+    });
+    document.getElementById('PicMiniTwo').addEventListener('click',function () {
+        offset = -400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('PicMiniThree').addEventListener('click',function () {
+        offset = -800;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('PicMiniFour').addEventListener('click',function () {
+        offset = -1200;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('PicMiniFifth').addEventListener('click',function () {
+        offset = -1600;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('PicMiniSixth').addEventListener('click',function () {
+        offset = -2000;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('PicMiniSeventh').addEventListener('click',function () {
+        offset = -2400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('PicMiniEighth').addEventListener('click',function () {
+        offset = -2800;
+        sliderLine.style.left = offset + 'px';
+    });
 </script>
 <footer>
     <div class="footer container">
