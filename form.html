@@ -76,45 +76,7 @@
 
 <script>
     'use strict'
-    let offset = 0;
-
-    let sliderLine = document.getElementById('sliderTopLine');
-
-    document.getElementById('vizPicMiniOne').addEventListener('click',function () {
-        offset = 0;
-        sliderLine.style.left = offset + 'px';
-
-    });
-    document.getElementById('vizPicMiniTwo').addEventListener('click',function () {
-        offset = -400;
-        sliderLine.style.left = offset + 'px';
-    });
-    document.getElementById('vizPicMiniThree').addEventListener('click',function () {
-        offset = -800;
-        sliderLine.style.left = offset + 'px';
-    });
-    document.getElementById('vizPicMiniFour').addEventListener('click',function () {
-        offset = -1200;
-        sliderLine.style.left = offset + 'px';
-    });
-    document.getElementById('vizPicMiniFifth').addEventListener('click',function () {
-        offset = -1600;
-        sliderLine.style.left = offset + 'px';
-    });
-    document.getElementById('vizPicMiniSixth').addEventListener('click',function () {
-        offset = -2000;
-        sliderLine.style.left = offset + 'px';
-    });
-    document.getElementById('vizPicMiniSeventh').addEventListener('click',function () {
-        offset = -2400;
-        sliderLine.style.left = offset + 'px';
-    });
-    document.getElementById('vizPicMiniEighth').addEventListener('click',function () {
-        offset = -2800;
-        sliderLine.style.left = offset + 'px';
-    });
-
-    const form = document.querySelector('.form');
+   const form = document.querySelector('.form');
     const number = '79385036503';
     function sendToWhatsapp(text, phone) {
 
