@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Разработка макета</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<selection class="top">
+    <div class="topStripe container">
+        <div class="container">
+            <section class="top">
+                <div class="stripeContainer">
+                    <a href="index.html" class="logo">LOGO</a>
+                    <nav>
+                        <div class="navBlock">
+                            <nav>
+                                <ul class="menu">
+                                    <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+
+                                    <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                                    <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
+                                    <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
+                                    <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
+                                    <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+
+                                </ul>
+
+                            </nav>
+
+
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="headerStripe container">
+                    <ul class="menuMini">
+                        <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
+                        <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
+                        <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
+                        <li class="menuListMini"><a href="leaflet.html" class="menuLinkMini">Листовки</a></li>
+                        <li class="menuListMini"><a href="holst.html" class="menuLinkMini">Холсты</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
+                        <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+</selection>
+
+
+<form action="#" class="form" method="POST">
+    <input type="text">
+    <button type="submit">Отправить</button>
+</form>
+<footer>
+    <div class="footer container">
+        <div class="footerContainer">
+            <div class="logoFooter">LOGO</div>
+            <div class="socialIconBox">
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-brands fa-vk icon"></i>
+                <i class="fa-brands fa-whatsapp icon"></i>
+                <i class="fa-brands fa-telegram icon"></i>
+                <i class="fa-solid fa-envelope icon"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    'use strict'
+    let offset = 0;
+
+    let sliderLine = document.getElementById('sliderTopLine');
+
+    document.getElementById('vizPicMiniOne').addEventListener('click',function () {
+        offset = 0;
+        sliderLine.style.left = offset + 'px';
+
+    });
+    document.getElementById('vizPicMiniTwo').addEventListener('click',function () {
+        offset = -400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniThree').addEventListener('click',function () {
+        offset = -800;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFour').addEventListener('click',function () {
+        offset = -1200;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniFifth').addEventListener('click',function () {
+        offset = -1600;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSixth').addEventListener('click',function () {
+        offset = -2000;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniSeventh').addEventListener('click',function () {
+        offset = -2400;
+        sliderLine.style.left = offset + 'px';
+    });
+    document.getElementById('vizPicMiniEighth').addEventListener('click',function () {
+        offset = -2800;
+        sliderLine.style.left = offset + 'px';
+    });
+
+    const form = document.querySelector('.form');
+    const number = '79385036503';
+    function sendToWhatsapp(text, phone) {
+
+        text = encodeURIComponent(text);
+
+        let url = `https://web.whatsapp.com/send?phone=${phone}&text=${text}&source=&data=`;
+
+        window.open(url);
+    }
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const text = e.currentTarget.querySelector('input').value;
+
+        sendToWhatsapp(text, number);
+    });
+</script>
+
+</div>
+<script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
