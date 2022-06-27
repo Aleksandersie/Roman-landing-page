@@ -58,7 +58,31 @@
         <h3 class="h3shadow">Стилизация фоотографий</h3>
         <div class="dreamArtBlock container">
             <div class="dreamArtPic">
-                <img src="img/stylise/dreamArt.jpg" alt="dreamArtPic">
+                <div class="gallerySlider">
+                    <div class="gallerySliderTop">
+                        <div class="sliderTopLine" id="sliderTopLine">
+                            <img src="img/stylise/slide1.jpg" alt="1">
+                            <img src="img/stylise/slide2.jpg"  alt="1">
+                            <img src="img/stylise/slide3.jpg"   alt="1">
+                            <img src="img/stylise/slide4.jpg"   alt="1">
+                            <img src="img/stylise/slide5.jpg"  alt="1">
+                            <img src="img/stylise/slide6.jpg"   alt="1">
+                            <img src="img/stylise/slide7.jpg"  alt="1">
+                            <img src="img/stylise/slide8.jpg"   alt="1">
+                        </div>
+                    </div>
+                    <div class="gallerySliderBottom">
+                        <div class="dreamArtPicMiniOne" id="PicMiniOne"></div>
+                        <div class="dreamArtPicMiniTwo" id="PicMiniTwo"></div>
+                        <div class="dreamArtPicMiniThree" id="PicMiniThree"></div>
+                        <div class="dreamArtPicMiniFour" id="PicMiniFour"></div>
+                        <div class="dreamArtPicMiniFifth" id="PicMiniFifth"></div>
+                        <div class="dreamArtPicMiniSixth" id="PicMiniSixth"></div>
+                        <div class="dreamArtPicMiniSeventh" id="PicMiniSeventh"></div>
+                        <div class="dreamArtPicMiniEighth" id="PicMiniEighth"></div>
+                    </div>
+                </div>
+
             </div>
             <div class="vizitkiText">
                 <p><span class="sLine"></span>В нашей студии вы можете заказать стилизацию ваших фотографий, для дальнейшей печати на
@@ -103,36 +127,36 @@
 
     let sliderLine = document.getElementById('sliderTopLine');
 
-    document.getElementById('vizPicMiniOne').addEventListener('click',function () {
+    document.getElementById('PicMiniOne').addEventListener('click',function () {
         offset = 0;
         sliderLine.style.left = offset + 'px';
 
     });
-    document.getElementById('vizPicMiniTwo').addEventListener('click',function () {
+    document.getElementById('PicMiniTwo').addEventListener('click',function () {
         offset = -400;
         sliderLine.style.left = offset + 'px';
     });
-    document.getElementById('vizPicMiniThree').addEventListener('click',function () {
+    document.getElementById('PicMiniThree').addEventListener('click',function () {
         offset = -800;
         sliderLine.style.left = offset + 'px';
     });
-    document.getElementById('vizPicMiniFour').addEventListener('click',function () {
+    document.getElementById('PicMiniFour').addEventListener('click',function () {
         offset = -1200;
         sliderLine.style.left = offset + 'px';
     });
-    document.getElementById('vizPicMiniFifth').addEventListener('click',function () {
+    document.getElementById('PicMiniFifth').addEventListener('click',function () {
         offset = -1600;
         sliderLine.style.left = offset + 'px';
     });
-    document.getElementById('vizPicMiniSixth').addEventListener('click',function () {
+    document.getElementById('PicMiniSixth').addEventListener('click',function () {
         offset = -2000;
         sliderLine.style.left = offset + 'px';
     });
-    document.getElementById('vizPicMiniSeventh').addEventListener('click',function () {
+    document.getElementById('PicMiniSeventh').addEventListener('click',function () {
         offset = -2400;
         sliderLine.style.left = offset + 'px';
     });
-    document.getElementById('vizPicMiniEighth').addEventListener('click',function () {
+    document.getElementById('PicMiniEighth').addEventListener('click',function () {
         offset = -2800;
         sliderLine.style.left = offset + 'px';
     });

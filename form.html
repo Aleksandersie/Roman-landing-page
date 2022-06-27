@@ -54,10 +54,28 @@
         </div>
 </selection>
 
-
-<form action="#" class="form" method="POST">
-    <input type="text">
-    <button type="submit">Отправить</button>
+<h2>Форма обратной связи на PHP</h2>
+<!--Данные введенные пользователем обрабатываются кодом в mail.php-->
+<form action="./mail.php" method="post">
+    <!--Тег используется для группировки связанных элементов в форме-->
+    <fieldset>
+        <!--Тег задает заголовок для групповых элементов-->
+        <legend>Оставьте сообщение:</legend>
+        Ваше имя:
+        <!--Устанавливает однострочное текстовое поле ввода:-->
+        <input type="text" name="name">
+        <!--Используется для полей ввода, которые должны содержать адрес электронной почты.-->
+        E-mail:
+        <input type="text" name="email">
+        Номер телефона:
+        <input type="text" name="phone">
+        Сообщение:
+        <!--Тег разрешает многострочный ввод текста.-->
+        Текстовая область может содержать неограниченное количество символов-->
+        <textarea rows="10" cols="45" name="message"></textarea>
+        <!--Устанавливает кнопку для отправки данных формы в обработчик формы.-->
+        <input type="submit" value="Отправить сообщение">
+    </fieldset>
 </form>
 <footer>
     <div class="footer container">
@@ -74,27 +92,7 @@
     </div>
 </footer>
 
-<script>
-    'use strict'
-   const form = document.querySelector('.form');
-    const number = '79385036503';
-    function sendToWhatsapp(text, phone) {
 
-        text = encodeURIComponent(text);
-
-        let url = `https://web.whatsapp.com/send?phone=${phone}&text=${text}&source=&data=`;
-
-        window.open(url);
-    }
-
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-
-        const text = e.currentTarget.querySelector('input').value;
-
-        sendToWhatsapp(text, number);
-    });
-</script>
 
 </div>
 <script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>

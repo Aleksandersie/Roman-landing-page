@@ -1062,9 +1062,101 @@ a {
 .dreamArtPic {
   width: 50%;
 }
-.dreamArtPic img {
+.dreamArtPicMiniOne {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide1mini.jpg");
   border-radius: 10px;
   box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniOne:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.dreamArtPicMiniTwo {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide2mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniTwo:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.dreamArtPicMiniThree {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide3mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniThree:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.dreamArtPicMiniFour {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide4mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniFour:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.dreamArtPicMiniFifth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide5mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniFifth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.dreamArtPicMiniSixth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide6mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniSixth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.dreamArtPicMiniSeventh {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide7mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniSeventh:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
+}
+.dreamArtPicMiniEighth {
+  width: 95px;
+  height: 95px;
+  background-image: url("img/stylise/slide8mini.jpg");
+  border-radius: 10px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  cursor: pointer;
+}
+.dreamArtPicMiniEighth:hover {
+  transform: scale(1.04);
+  transition: all ease 0.3s;
 }
 .requirementBackG {
   height: 1000px;
@@ -1372,6 +1464,10 @@ a {
 .desingPic img {
   border-radius: 10px;
   box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+}
+.canvasUl {
+  display: block;
+  margin-left: 38px;
 }
 .canvasBackG {
   height: 1000px;
