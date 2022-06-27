@@ -12,47 +12,7 @@
 
 </head>
 <body>
-<selection class="top">
-    <div class="topStripe container">
-        <div class="container">
-            <section class="top">
-                <div class="stripeContainer">
-                    <a href="index.html" class="logo">LOGO</a>
-                    <nav>
-                        <div class="navBlock">
-                            <nav>
-                                <ul class="menu">
-                                    <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
 
-                                    <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
-                                    <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
-                                    <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
-                                    <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
-                                    <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
-
-                                </ul>
-
-                            </nav>
-
-
-                        </div>
-                    </nav>
-
-                </div>
-                <div class="headerStripe container">
-                    <ul class="menuMini">
-                        <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
-                        <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
-                        <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
-                        <li class="menuListMini"><a href="leaflet.html" class="menuLinkMini">Листовки</a></li>
-                        <li class="menuListMini"><a href="holst.html" class="menuLinkMini">Холсты</a></li>
-                        <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
-                        <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-</selection>
 <?php
 $to = "aleksander.sie@gmail.com"; // емайл получателя данных из формы
 $tema = "Форма обратной связи на PHP"; // тема полученного емайла
