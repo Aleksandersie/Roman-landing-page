@@ -29,8 +29,9 @@ a {
 .logo {
   text-decoration: none;
   font-weight: bold;
-  font-size: 32px;
-  color: #e7eee7;
+  z-index: 1;
+  position: relative;
+  top: 26px;
 }
 .menu {
   display: flex;
@@ -464,14 +465,16 @@ a {
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .footerContainer {
-  height: 100px;
-  background-color: #417e6f;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-left: 75px;
   padding-right: 75px;
+  padding-top: 16px;
+}
+.footer {
+  height: 160px;
+  background-color: #417e6f;
+  text-align: center;
 }
 .icon {
   font-size: 40px;
@@ -479,10 +482,28 @@ a {
   color: white;
 }
 .logoFooter {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 32px;
+  width: 90px;
+  height: 90px;
+}
+.logoBottom {
+  width: 90px;
+  height: 90px;
+}
+.linkBlock {
+  display: flex;
+}
+.bottomList {
+  list-style-type: none;
+  margin-right: 25px;
+  padding-top: 5px;
+  text-align: left;
+}
+.btLinks {
   color: white;
+}
+.date {
+  color: white;
+  margin-top: 25px;
 }
 .dostavkaBlock {
   height: 1000px;
@@ -1061,6 +1082,13 @@ a {
 }
 .dreamArtPic {
   width: 50%;
+}
+.gallerySliderdreamArt {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
 }
 .dreamArtPicMiniOne {
   width: 95px;

@@ -43,8 +43,10 @@ a{
 .logo{
   text-decoration: none;
   font-weight: bold;
-  font-size: 32px;
-  color: @itemCardColor;
+  z-index: 1;
+  position: relative;
+  top: 26px;
+
 }
 .menu{
   display: flex;
@@ -518,14 +520,20 @@ a{
   box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 }
 .footerContainer{
-  height: 100px;
-  background-color: @mainColorHeader;
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+  //height: 130px;
+  //background-color: @mainColorHeader;
+  //box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  //align-items: center;
   padding-left: 75px;
   padding-right: 75px;
+  padding-top: 16px;
+}
+.footer{
+  height: 160px;
+  background-color: @mainColorHeader;
+  text-align: center;
 }
 .icon{
   font-size: 40px;
@@ -533,11 +541,33 @@ a{
   color: white;
 }
 .logoFooter{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
+  width: 90px;
+  height: 90px;
 }
+.logoBottom{
+  width: 90px;
+  height: 90px;
+}
+.linkBlock{
+  display: flex;
+
+}
+.bottomList{
+  list-style-type: none;
+  margin-right: 25px;
+  padding-top: 5px;
+  text-align: left;
+
+}
+
+.btLinks{
+  color: white;
+}
+.date{
+  color: white;
+  margin-top: 25px;
+}
+
 
 ///////////DOSTAVKA/////////////////////////////////////////////////////////////////
 .dostavkaBlock{
@@ -598,6 +628,7 @@ a{
   height: 1000px;
   text-align: center;
   background: @mainGray;
+  //background-image: url("img/LogoBack.svg");
   //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
  // box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
 
@@ -1157,6 +1188,14 @@ a{
 
 .dreamArtPic{
   width: 50%;
+}
+.gallerySliderdreamArt{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: @shadowOne;
+
 }
 .dreamArtPicMiniOne{
   width: 95px;
