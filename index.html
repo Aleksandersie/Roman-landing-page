@@ -2,16 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Roman landing page</title>
+    <title>Главная Desing&Print</title>
     <link rel="stylesheet" href="style.css">
-    <!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
-    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;300;400;500;600&display=swap"-->
-    <!--          rel="stylesheet">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
 
 </head>
 <body>
@@ -19,6 +16,7 @@
     <div class="topStripe container">
         <div class="stripeContainer">
             <a href="index.html" class="logo"><img src="./img/logo.svg" alt="logo"></a>
+            <div class="slog" id="slog"></div>
             <nav>
                 <div class="navBlock">
                     <nav>
@@ -109,7 +107,7 @@
                     <div class="itemPicCont"> <div class="itemDesing" ></div></div>
                 </div>
             </a>
-            <a href="#">
+            <a href="web.html">
                 <div class="item"><h2 class="itemTextBig">Разработка сайтов</h2>
                     <div class="itemPicCont"> <div class="itemDev" ></div></div>
                 </div>
@@ -117,20 +115,7 @@
         </div>
     </div>
 </section>
-   <!--<section class="sectionDizain">
-    <div class="dizaynBlock container">
-        <h2 class="h3shadow">Разработка макета</h2>
-        <div class="opisanieDiz">
-            <div class="dizPic"></div>
-            <div class="dizText"><h3>Наши дизайнеры помогут воплотить вашу идею</h3>
-                <p><br>Наши дизайнеры такие классные, что ващщее. Макеты всем нравится.Дизайнерам нравится,
-                    заказчикам
-                    нравятся. Даже котам у подъезда нравится. <br>
-                    Надо придумать больше текста</p>
-            </div>
-        </div>
-    </div>
-</section>-->
+
 <section class="sectionPriemushestva">
     <div class="priemBlock container">
         <div class="priemContainer">
@@ -304,18 +289,18 @@
                     <li class="bottomList"><a href="label.html" class="btLinks">Бирки</a></li>
                     <li class="bottomList"><a href="booklet.html" class="btLinks">Буклеты</a></li>
                 </ul>
-                <ul class="bottomLink">
+                <ul class="last">
                     <li class="bottomList"><a href="dreamArt.html" class="btLinks">Стилизация фото</a></li>
                     <li class="bottomList"><a href="desing.html" class="btLinks">Разработка макетов</a></li>
                     <li class="bottomList"><a href="web.html" class="btLinks">Разработка сайтов</a></li>
                 </ul>
             </div>
             <div class="socialIconBox">
-                <i class="fa-brands fa-instagram icon"></i>
-                <i class="fa-brands fa-vk icon"></i>
-                <i class="fa-brands fa-whatsapp icon"></i>
-                <i class="fa-brands fa-telegram icon"></i>
-                <i class="fa-solid fa-envelope icon"></i>
+                <i class="fa-brands fa-instagram icon iconHover"></i>
+                <i class="fa-brands fa-vk icon iconHover"></i>
+                <i class="fa-brands fa-whatsapp icon iconHover"></i>
+                <i class="fa-brands fa-telegram icon iconHover"></i>
+                <i class="fa-solid fa-envelope icon iconHover"></i>
             </div>
 
         </div>
@@ -323,37 +308,7 @@
     </div>
 </footer>
 
-<script>
-    'use strict'
-    let offsetTop = 0;
-    let text = 0;
-    let textBlock = document.getElementById('sliderText');
-    let sliderLine = document.getElementById('sliderLine');
-    let offsetOtzivy = 0;
-    let otzivyLine = document.getElementById('otzivyLine');
-
-
-    setInterval(topSlider, 3000);
-    setInterval(OtzivySlider, 6000);
-
-    function topSlider() {
-
-        offsetTop -= 1200;
-        if (offsetTop < -1200*4) {
-            offsetTop = 0;
-        }
-        sliderLine.style.left = offsetTop + 'px';
-    };
-    function OtzivySlider() {
-        offsetOtzivy -= 1200;
-        if (offsetOtzivy < -1200*3) {
-            offsetOtzivy = 0;
-        }
-        otzivyLine.style.left = offsetOtzivy + 'px';
-    };
-    const date = new Date;
-    document.getElementById("date").innerHTML = `Desing&Print ${date.getFullYear()}`
-</script>
+<script src="main.js"> </script>
 
 </div>
 <script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>

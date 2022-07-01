@@ -48,6 +48,11 @@ a{
   top: 26px;
 
 }
+.slog{
+  font-family: 'Bad Script', cursive;
+  color: white;
+  font-size: 28px;
+}
 .menu{
   display: flex;
 }
@@ -75,12 +80,18 @@ a{
   background-color: #cb132d;
   padding: 7px;
   border-radius: 14px;
-  top: 8px;
+  //top: 8px;
   color: white;
-  left: 39px;
+  //left: 39px;
   font-weight: 600;
  // letter-spacing: 1px;
   font-size: 20px;
+  box-shadow: @shadowOne;
+  transition: 0.3s ease-in;
+  &:hover{
+    padding: 10px;
+    color: black;
+  }
 }
 .headerStripe {
   height: 30px;
@@ -474,7 +485,7 @@ a{
   height: 911px;
   background: @mainGray;
   //background: linear-gradient(90deg,@mainColorHeader 0%,@mainColorLight 49.75%,@mainColorHeader 100%);
-  box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
+ // box-shadow: 1px 4px 9px 1px rgba(0, 0, 0, 0.55);
   //padding-top: 50px;
   //padding-bottom: 50px;
 }
@@ -554,20 +565,37 @@ a{
 }
 .bottomList{
   list-style-type: none;
-  margin-right: 25px;
+  //margin-right: 25px;
   padding-top: 5px;
   text-align: left;
 
 }
-
+.bottomLink{
+  margin-right: 25px;
+}
+.last{
+  list-style-type: none;
+  margin-right: 0px;
+  text-align: left;
+}
 .btLinks{
   color: white;
+  &:hover{
+    border-bottom: 2px solid white;
+  }
 }
 .date{
   color: white;
   margin-top: 25px;
 }
-
+.iconHover{
+  cursor: pointer;
+  color: @itemCardColor;
+  transition: 0.2s ease-out;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 
 ///////////DOSTAVKA/////////////////////////////////////////////////////////////////
 .dostavkaBlock{
@@ -625,7 +653,7 @@ a{
 
 
 .vizitkiFon{
-  height: 1000px;
+  height: 1050px;
   text-align: center;
   background: @mainGray;
   //background-image: url("img/LogoBack.svg");
@@ -635,12 +663,13 @@ a{
 }
 .vizitkiBlock{
   width: 1100px;
-  height: 450px;
+  height: 550px;
   padding-top: 50px;
   margin-top:0px;
  // background-color: @itemCardColor;
   border-radius: 10px;
   display: flex;
+
 }
 .vizitkiSlider{
   width: 50%;
@@ -803,22 +832,48 @@ a{
   margin-top: 50px;
 }
 
-///////////////////Mini Menu//////////////////////////////
-.menuMini{
+///////////////////Mini Nav//////////////////////////////
+.bottomNav{
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  height: 250px;
+  border: 1px solid red;
+  justify-content: space-around;
+  width: 1200px;
+  margin-bottom: 40px;
 }
-.menuListMini{
-  list-style-type: none;
+.navLine{
+  display: flex;
+  align-items: center;
+  height: 250px;
+  border: 1px solid;
+  justify-content: center;
+  width: 1000px;
 }
-.menuLinkMini{
-  color: @itemCardColor;
-  font-size: 20px;
-  //letter-spacing: 1px;
-  &:hover{
-    border-bottom: 2px solid @itemCardColor;
-  }
+.miniA{
+  transform: scale(0.7);
 }
+.arrowLeft{
+  background-image: url("img/arrowLeft.svg");
+  height: 100px;
+  width: 62px;
+  transform: rotate(180deg);
+  cursor: pointer;
+
+}
+.arrowRight{
+  background-image: url("img/arrowLeft.svg");
+  height: 100px;
+  width: 62px;
+  cursor: pointer;
+  //transform: rotate(180deg);
+}
+//.miniNavItem{
+//  transform: scale(0.7);
+//  &:hover{
+//    transform: scale(0.72);
+//  }
+//}
 ////////////slider new/////////
 .slideOne{
   background-image: url("./img/Slider.jpg");

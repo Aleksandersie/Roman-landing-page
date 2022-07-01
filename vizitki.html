@@ -8,51 +8,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
 
 </head>
 <body>
-<selection class="top">
-<div class="topStripe container">
-    <div class="container">
-        <section class="top">
-            <div class="stripeContainer">
-                <a href="index.html" class="logo">LOGO</a>
-                <nav>
-                    <div class="navBlock">
-                        <nav>
-                            <ul class="menu">
-                                <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
+<section class="top">
+    <div class="topStripe container">
+        <div class="stripeContainer">
+            <a href="index.html" class="logo"><img src="./img/logo.svg" alt="logo"></a>
+            <div class="slog" id="slog"></div>
+            <nav>
+                <div class="navBlock">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menuList"><a href="index.html" class="menuLink">Главная</a></li>
 
-                                <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
-                                <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
-                                <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
-                                <li class="menuList"><a href="#" class="menuLink">Требования<br>к макету</a></li>
-                                <li class="menuListLast"><a href="#" class="redButton">Оформить заказ</a></li>
+                            <li class="menuList"><a href="dostavka.html" class="menuLink">Доставка</a></li>
+                            <li class="menuList"><a href="oNas.html" class="menuLink">О нас</a></li>
+                            <li class="menuList"><a href="contact.html" class="menuLink">Контакты</a></li>
+                            <li class="menuList"><a href="requirement.html" class="menuLink">Требования<br>к макету</a></li>
+                            <li class="menuListLast"><a href="form.html" class="redButton">Оформить заказ</a></li>
 
-                            </ul>
+                        </ul>
 
-                        </nav>
+                    </nav>
 
 
-                    </div>
-                </nav>
+                </div>
+            </nav>
 
-            </div>
-            <div class="headerStripe container">
-                <ul class="menuMini">
-                    <li class="menuListMini"><a href="index.html" class="menuLinkMini">Главная</a></li>
-                    <li class="menuListMini"><a href="vizitki.html" class="menuLinkMini">Визитки</a></li>
-                    <li class="menuListMini"><a href="nakleiki.html" class="menuLinkMini">Наклейки</a></li>
-                    <li class="menuListMini"><a href="leaflet.html" class="menuLinkMini">Листовки</a></li>
-                    <li class="menuListMini"><a href="holst.html" class="menuLinkMini">Холсты</a></li>
-                    <li class="menuListMini"><a href="" class="menuLinkMini">Бирки</a></li>
-                    <li class="menuListMini"><a href="" class="menuLinkMini">Буклеты</a></li>
-                </ul>
-            </div>
-        </section>
+        </div>
+        <div class="headerStripe container"></div>
     </div>
-</selection>
+</section>
     <selection class="vizitki">
         <div class="vizitkiFon container">
             <h3 class="h3shadow">Визитки</h3>
@@ -97,71 +86,86 @@
                         <span class="sLine"></span> Заказать визитки в типографии стоит не только для того, чтобы всегда иметь
                         при себе сжатую информацию, но и для поддержания статуса и престижа.</p>
 
-                    <div class="redButtonViz">Оформить заказ</div>
+
 
 
             </div>
 
         </div>
-        </div>
+            <nav class="bottomNav container">
+                <div class="arrowLeft"></div>
+                <div class="navLine">
+                    <a href="./vizitki.html" class="miniA">
+                    <div class="item miniNavItem"><h2 class="itemTextBig">Визитки</h2>
+                        <div class="itemPicCont"> <div class="itemPic" ></div></div>
+                    </div>
+                </a>
+                    <a href="nakleiki.html"  class="miniA">
+                        <div class="item miniNavItem" ><h2 class="itemTextBig">Наклейки</h2>
+                            <div class="itemPicCont"> <div class="itemNakl" ></div></div>
+                        </div>
+                    </a>
+                    <a href="leaflet.html" class="miniA">
+                        <div class="item miniNavItem" ><h2 class="itemTextBig">Листовки</h2>
+                            <div class="itemPicCont"> <div class="itemLeaflet" ></div></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="arrowRight"></div>
+            </nav>
+
+
+
+
+
     </selection>
 
 
-    <footer>
-        <div class="footer container">
-            <div class="footerContainer">
-                <div class="logoFooter">LOGO</div>
-                <div class="socialIconBox">
-                    <i class="fa-brands fa-instagram icon"></i>
-                    <i class="fa-brands fa-vk icon"></i>
-                    <i class="fa-brands fa-whatsapp icon"></i>
-                    <i class="fa-brands fa-telegram icon"></i>
-                    <i class="fa-solid fa-envelope icon"></i>
-                </div>
+<footer>
+    <div class="footer container">
+        <div class="footerContainer">
+            <div class="logoFooter"><img src="./img/logoBottom.svg" alt="logo" class="logoBottom"></div>
+            <div class="linkBlock">
+                <ul class="bottomLink">
+                    <li class="bottomList"><a href="index.html" class="btLinks">Наверх</a></li>
+                    <li class="bottomList"><a href="dostavka.html" class="btLinks">Доставка</a></li>
+                    <li class="bottomList"><a href="form.html" class="btLinks">Сделать заказ</a></li>
+                </ul>
+                <ul class="bottomLink">
+                    <li class="bottomList"><a href="oNas.html" class="btLinks">О нас</a></li>
+                    <li class="bottomList"><a href="contact.html" class="btLinks">Контакты</a></li>
+                    <li class="bottomList"><a href="requirement.html" class="btLinks">Требования</a></li>
+                </ul>
+                <ul class="bottomLink">
+                    <li class="bottomList"><a href="vizitki.html" class="btLinks">Визитки</a></li>
+                    <li class="bottomList"><a href="nakleiki.html" class="btLinks">Наклейки</a></li>
+                    <li class="bottomList"><a href="leaflet.html" class="btLinks">Листовки</a></li>
+                </ul>
+                <ul class="bottomLink">
+                    <li class="bottomList"><a href="holst.html" class="btLinks">Холсты</a></li>
+                    <li class="bottomList"><a href="label.html" class="btLinks">Бирки</a></li>
+                    <li class="bottomList"><a href="booklet.html" class="btLinks">Буклеты</a></li>
+                </ul>
+                <ul class="last">
+                    <li class="bottomList"><a href="dreamArt.html" class="btLinks">Стилизация фото</a></li>
+                    <li class="bottomList"><a href="desing.html" class="btLinks">Разработка макетов</a></li>
+                    <li class="bottomList"><a href="web.html" class="btLinks">Разработка сайтов</a></li>
+                </ul>
             </div>
+            <div class="socialIconBox">
+                <i class="fa-brands fa-instagram icon iconHover"></i>
+                <i class="fa-brands fa-vk icon iconHover"></i>
+                <i class="fa-brands fa-whatsapp icon iconHover"></i>
+                <i class="fa-brands fa-telegram icon iconHover"></i>
+                <i class="fa-solid fa-envelope icon iconHover"></i>
+            </div>
+
         </div>
-    </footer>
+        <div class="date" id="date"></div>
+    </div>
+</footer>
 
-    <script>
-        'use strict'
-        let offset = 0;
-
-        let sliderLine = document.getElementById('sliderTopLine');
-
-        document.getElementById('vizPicMiniOne').addEventListener('click',function () {
-            offset = 0;
-            sliderLine.style.left = offset + 'px';
-
-        });
-        document.getElementById('vizPicMiniTwo').addEventListener('click',function () {
-            offset = -400;
-            sliderLine.style.left = offset + 'px';
-        });
-        document.getElementById('vizPicMiniThree').addEventListener('click',function () {
-            offset = -800;
-            sliderLine.style.left = offset + 'px';
-        });
-        document.getElementById('vizPicMiniFour').addEventListener('click',function () {
-            offset = -1200;
-            sliderLine.style.left = offset + 'px';
-        });
-        document.getElementById('vizPicMiniFifth').addEventListener('click',function () {
-            offset = -1600;
-            sliderLine.style.left = offset + 'px';
-        });
-        document.getElementById('vizPicMiniSixth').addEventListener('click',function () {
-            offset = -2000;
-            sliderLine.style.left = offset + 'px';
-        });
-        document.getElementById('vizPicMiniSeventh').addEventListener('click',function () {
-            offset = -2400;
-            sliderLine.style.left = offset + 'px';
-        });
-        document.getElementById('vizPicMiniEighth').addEventListener('click',function () {
-            offset = -2800;
-            sliderLine.style.left = offset + 'px';
-        });
-    </script>
+<script src="main.js"> </script>
 
 </div>
 <script src="https://kit.fontawesome.com/04bae50cbf.js" crossorigin="anonymous"></script>
