@@ -743,18 +743,25 @@ a {
   display: flex;
   align-items: center;
   height: 250px;
-  border: 1px solid red;
   justify-content: space-around;
   width: 1200px;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 .navLine {
   display: flex;
   align-items: center;
   height: 250px;
-  border: 1px solid;
   justify-content: center;
-  width: 1000px;
+  width: 3000px;
+  position: relative;
+  left: 0;
+  transition: 1.5s ease-in-out;
+}
+.nawWindow {
+  height: 250px;
+  width: 930px;
+  display: flex;
+  overflow: hidden;
 }
 .miniA {
   transform: scale(0.7);
@@ -765,12 +772,23 @@ a {
   width: 62px;
   transform: rotate(180deg);
   cursor: pointer;
+  margin-left: 20px;
+  transition: 0.3s ease-in-out;
+}
+.arrowLeft:hover {
+  background-image: url("img/arrowLeftRed.svg");
+  transform: rotate(180deg);
 }
 .arrowRight {
   background-image: url("img/arrowLeft.svg");
   height: 100px;
   width: 62px;
   cursor: pointer;
+  margin-right: 20px;
+  transition: 0.3s ease-in-out;
+}
+.arrowRight:hover {
+  background-image: url("img/arrowLeftRed.svg");
 }
 .slideOne {
   background-image: url("img/Slider.jpg");
@@ -869,13 +887,13 @@ a {
   letter-spacing: 1px;
 }
 .nakleikiFon {
-  height: 1000px;
+  height: 1050px;
   text-align: center;
   background: #fef5e6;
 }
 .naclBlock {
   width: 1100px;
-  height: 450px;
+  height: 600px;
   padding-top: 50px;
   margin-top: 0px;
   border-radius: 10px;
@@ -997,7 +1015,7 @@ a {
 }
 .leafletBlock {
   width: 1100px;
-  height: 450px;
+  height: 545px;
   padding-top: 50px;
   margin-top: 0px;
   border-radius: 10px;
@@ -1113,13 +1131,13 @@ a {
   letter-spacing: 1px;
 }
 .dreamArtBackG {
-  height: 1000px;
+  height: 1185px;
   text-align: center;
   background: #fef5e6;
 }
 .dreamArtBlock {
   width: 1100px;
-  height: 450px;
+  height: 730px;
   padding-top: 50px;
   margin-top: 0px;
   border-radius: 10px;
@@ -1281,7 +1299,7 @@ a {
 }
 .labelBlock {
   width: 1100px;
-  height: 450px;
+  height: 545px;
   padding-top: 50px;
   margin-top: 0px;
   border-radius: 10px;
@@ -1397,13 +1415,13 @@ a {
   letter-spacing: 1px;
 }
 .bookletBackG {
-  height: 1000px;
+  height: 1020px;
   text-align: center;
   background: #fef5e6;
 }
 .bookletBlock {
   width: 1100px;
-  height: 450px;
+  height: 550px;
   padding-top: 50px;
   margin-top: 0px;
   border-radius: 10px;
@@ -1525,7 +1543,7 @@ a {
 }
 .desingBlock {
   width: 1100px;
-  height: 450px;
+  height: 400px;
   padding-top: 20px;
   margin-top: 0px;
   border-radius: 10px;
@@ -1543,13 +1561,13 @@ a {
   margin-left: 38px;
 }
 .canvasBackG {
-  height: 1000px;
+  height: 1155px;
   text-align: center;
   background: #fef5e6;
 }
 .canvasBlock {
   width: 1100px;
-  height: 450px;
+  height: 700px;
   padding-top: 50px;
   margin-top: 0px;
   border-radius: 10px;
