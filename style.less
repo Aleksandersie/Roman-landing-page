@@ -1815,3 +1815,58 @@ a{
   line-height: 25px;
   letter-spacing: 1px;
 }
+/////////////////////////////////form/////////////////////////////////////////
+.formFon{
+  height: 730px;
+  text-align: center;
+  background: @mainGray;
+}
+.linkTextForm{
+  font-size: 20px;
+}
+.linkBlockForm{
+  width: 230px;
+  height: 100px;
+  background-color: @mainColorHeader;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  border-radius: 10px;
+  line-height: 24px;
+  //box-shadow: @shadowOne;
+}
+.caseBlock{
+  width: 240*3px;
+  display: flex;
+  gap: 20px;
+}
+.formTop{
+  margin-bottom: 30px;
+}
+.inputForm{
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: @mainColorHeader;
+  color: white;
+  padding: 10px;
+}
+.formText{
+  width: 358px;
+  border-radius: 10px;
+  background-color: @mainColorHeader;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  &:focus{
+    outline: none;
+    border: none;
+  }
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+textarea::-webkit-input-placeholder {
+  color: white;
+}

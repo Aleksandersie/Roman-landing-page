@@ -1682,3 +1682,56 @@ a {
   line-height: 25px;
   letter-spacing: 1px;
 }
+.formFon {
+  height: 730px;
+  text-align: center;
+  background: #fef5e6;
+}
+.linkTextForm {
+  font-size: 20px;
+}
+.linkBlockForm {
+  width: 230px;
+  height: 100px;
+  background-color: #417e6f;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  border-radius: 10px;
+  line-height: 24px;
+}
+.caseBlock {
+  width: 720px;
+  display: flex;
+  gap: 20px;
+}
+.formTop {
+  margin-bottom: 30px;
+}
+.inputForm {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #417e6f;
+  color: white;
+  padding: 10px;
+}
+.formText {
+  width: 358px;
+  border-radius: 10px;
+  background-color: #417e6f;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.formText:focus {
+  outline: none;
+  border: none;
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+textarea::-webkit-input-placeholder {
+  color: white;
+}
